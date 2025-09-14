@@ -2,6 +2,25 @@ import React, {useEffect, useState} from 'react';
 import OriginalDocSidebar from '@theme-original/DocSidebar';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 
+class SidebarErrorBoundary extends React.Component{
+  constructor(props){
+    super(props);
+    this.state = {hasError:false, error:null};
+  }
+  static getDerivedStateFromError(error){
+    return {hasError:true, error};
+  }
+  componentDidCatch(error, info){
+    console.error('[DocSidebar] Error in sidebar:', error, info);
+  }
+  render(){
+    if(this.state.hasError){
+      return <div className="sidebar-error" style={{padding:'1rem',color:'#ff4d4f'}}>Sidebar failed to load — check console.</div>;
+    }
+    return this.props.children;
+  }
+}
+
 function useMenuLabels(){
   const [labels, setLabels] = useState(null);
   useEffect(()=>{
@@ -60,5 +79,9 @@ export default function DocSidebar(props){
       }catch(e){}
     }
   }, [labels, locale]);
-  return <OriginalDocSidebar {...patchedProps} />;
+  return (
+    <SidebarErrorBoundary>
+      <OriginalDocSidebar {...patchedProps} />
+    </SidebarErrorBoundary>
+  );
 }

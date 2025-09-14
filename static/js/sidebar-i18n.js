@@ -27,6 +27,13 @@
       const L = labels[locale] || labels['en'];
       // Sidebar category labels can appear as anchor text or inside a span
       const anchors = Array.from(document.querySelectorAll('.menu__list-item .menu__link'));
+      // Don't run until the client bundle has had a chance to hydrate
+      const hydrated = document.documentElement.getAttribute('data-has-hydrated') || document.documentElement.getAttribute('data-sidebar-i18n');
+      if(!hydrated){
+        // try again later
+        setTimeout(applySidebarLabels, 500);
+        return;
+      }
       anchors.forEach(a => {
         // prefer the direct textContent of the anchor (trim children)
         const raw = (a.childNodes && a.childNodes.length) ? Array.from(a.childNodes).map(n=>n.nodeType===3? n.textContent : '').join('').trim() : a.textContent && a.textContent.trim();
@@ -35,8 +42,10 @@
         const lookup = (L[key] || L[key.toLowerCase()]);
         if(lookup){
           // replace text nodes only to preserve icons/children
-          a.childNodes.forEach(n=>{
-            if(n.nodeType===3){ n.textContent = lookup; }
+          Array.from(a.childNodes).forEach(n=>{
+            try{
+              if(n.nodeType===3){ n.textContent = lookup; }
+            }catch(e){/* ignore write errors */}
           });
         }
       });
