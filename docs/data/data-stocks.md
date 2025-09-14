@@ -37,3 +37,27 @@ slug: /data/data-stocks
 ```json
 {"productId":"prod-1","warehouseId":"wh-1","available":100,"reserved":2}
 ```
+
+---
+### 테스트 시나리오: 재고 동기화
+
+1) 재고 스냅샷 (GET `/api/stocks`) 예시
+
+```json
+[
+	{ "productId": "prod-1", "warehouseId": "wh-1", "available": 100, "reserved": 2 }
+]
+```
+
+2) 재고 델타(증감) 이벤트 (POST `/webhooks/inventory`) 예시
+
+```json
+{ "productId": "prod-1", "warehouseId": "wh-1", "delta": -3, "reason": "order_shipped", "timestamp": "2025-09-14T12:05:00Z" }
+```
+
+3) 재고 동기화 충돌(동시 업데이트) 예시 응답
+
+```json
+{ "error": "CONFLICT", "current": { "available": 97 } }
+```
+

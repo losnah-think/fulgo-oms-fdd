@@ -83,3 +83,41 @@ Response example (201):
 Notes:
 - Server stores `credentials` encrypted and only exposes connection health and non-sensitive metadata via the public API.
 
+---
+### 테스트 단계별 페이로드
+
+1) 등록 (POST `/api/integrations`) — 동일한 내용으로 앞서 예시와 동일
+
+2) 연결 테스트 (GET `/api/integrations/:id/test`) 응답 예시
+
+```json
+{ "ok": true, "message": "connection successful", "apiVersion": "v1" }
+```
+
+3) 통합 목록 (GET `/api/integrations`) 예시
+
+```json
+[
+  { "id": "int-001", "platform": "cafe24", "shop_no": "SHOP1", "status": "connected", "lastSync": "2025-09-14T12:00:00Z" }
+]
+```
+
+4) 상태 변경(비활성화) — PATCH `/api/integrations/:id`
+
+Request:
+```json
+{ "enabled": false }
+```
+
+Response:
+```json
+{ "id": "int-001", "enabled": false }
+```
+
+5) 연결 제거 — DELETE `/api/integrations/:id`
+
+Response (204 No Content)
+
+비고: 테스트 데이터는 실제 채널 정책(예: OAuth 토큰 만료, rate-limit)에 따라 실패할 수 있으므로 백오프/재시도 시나리오를 함께 테스트하세요。
+
+

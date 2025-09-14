@@ -41,3 +41,33 @@ title: 주문 데이터 (mockOrders)
 
 채널 연동 시 채널 주문번호(`channelOrderId`)와 내부 주문 ID 매핑을 반드시 기록하세요.
 
+---
+### 테스트 시나리오: 내부 주문 처리 플로우
+
+1) 외부(채널)에서 전달된 주문을 내부 모델로 매핑(예: Full sync)
+
+```json
+{
+  "id": 1001,
+  "order_code": "ORD0001001",
+  "shop_no": "SHOP1",
+  "items": [ { "product_id": "PRD-1", "qty": 2, "unitPrice": 5500 } ],
+  "payment_amount": 11000,
+  "payment_status": "결제완료",
+  "placedAt": "2025-09-01T10:00:00Z"
+}
+```
+
+2) Incremental webhook (주문 변경: 배송 상태 업데이트)
+
+```json
+{ "order_code": "ORD0001001", "update": { "shipping_status": "배송중", "invoice_number": "INV-1001" } }
+```
+
+3) 동기화 실패(예: 재시도 필요)
+
+```json
+{ "error": "RATE_LIMIT", "retryAfter": 30 }
+```
+
+
