@@ -48,6 +48,16 @@ export default function DocSidebar(props){
   const {i18n} = useDocusaurusContext();
   const labels = useMenuLabels();
 
+  // Debug: ensure OriginalDocSidebar is a valid component
+  if (typeof OriginalDocSidebar === 'undefined' || OriginalDocSidebar == null) {
+    console.error('[DocSidebar] OriginalDocSidebar is undefined — rendering fallback.');
+    return (
+      <SidebarErrorBoundary>
+        <div style={{padding:'1rem',color:'#ff4d4f'}}>Sidebar component is unavailable.</div>
+      </SidebarErrorBoundary>
+    );
+  }
+
   // If labels not loaded yet, render original sidebar
   if(!labels) return <OriginalDocSidebar {...props} />;
 
