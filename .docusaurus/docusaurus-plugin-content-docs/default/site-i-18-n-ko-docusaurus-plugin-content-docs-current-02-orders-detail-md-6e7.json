@@ -1,7 +1,7 @@
 {
   "unversionedId": "02-orders-detail",
   "id": "02-orders-detail",
-  "title": "Orders Detail",
+  "title": "주문 상세",
   "description": "주문 — 상세",
   "source": "@site/i18n/ko/docusaurus-plugin-content-docs/current/02-orders-detail.md",
   "sourceDirName": ".",
@@ -14,15 +14,15 @@
   "sidebarPosition": 2,
   "frontMatter": {
     "id": "02-orders-detail",
-    "title": "Orders Detail"
+    "title": "주문 상세"
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Orders List",
+    "title": "주문 목록",
     "permalink": "/01-orders-list"
   },
   "next": {
-    "title": "Products List",
+    "title": "상품 목록",
     "permalink": "/03-products-list"
   }
 }

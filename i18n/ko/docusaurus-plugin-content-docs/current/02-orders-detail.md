@@ -1,6 +1,6 @@
 ---
 id: 02-orders-detail
-title: Orders Detail
+title: 주문 상세
 ---
 
 ## 주문 — 상세

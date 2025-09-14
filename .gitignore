@@ -10,3 +10,4 @@ yarn-error.log*
 
 # Local Docusaurus build artifacts and generated docs
 .docusaurus/
+.vercel

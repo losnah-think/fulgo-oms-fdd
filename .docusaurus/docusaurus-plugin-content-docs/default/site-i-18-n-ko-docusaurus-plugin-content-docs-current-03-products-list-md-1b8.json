@@ -1,7 +1,7 @@
 {
   "unversionedId": "03-products-list",
   "id": "03-products-list",
-  "title": "Products List",
+  "title": "상품 목록",
   "description": "제품 — 목록",
   "source": "@site/i18n/ko/docusaurus-plugin-content-docs/current/03-products-list.md",
   "sourceDirName": ".",
@@ -14,11 +14,11 @@
   "sidebarPosition": 3,
   "frontMatter": {
     "id": "03-products-list",
-    "title": "Products List"
+    "title": "상품 목록"
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Orders Detail",
+    "title": "주문 상세",
     "permalink": "/02-orders-detail"
   },
   "next": {

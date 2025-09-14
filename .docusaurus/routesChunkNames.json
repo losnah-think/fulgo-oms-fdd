@@ -1,5 +1,5 @@
 {
-  "/vi/-f7b": {
+  "/vi/-972": {
     "__comp": "1be78505",
     "__context": {
       "plugin": "1a9843ed"
@@ -42,13 +42,61 @@
     "__comp": "17896441",
     "content": "d7415898"
   },
-  "/vi/design-system-colors-c99": {
+  "/vi/data/data-brands-4ca": {
     "__comp": "17896441",
-    "content": "0f7d5d0d"
+    "content": "e75519e1"
   },
-  "/vi/design-system-typography-c5f": {
+  "/vi/data/data-cafe24-orders-f5f": {
     "__comp": "17896441",
-    "content": "b933a8ab"
+    "content": "be5b42c7"
+  },
+  "/vi/data/data-categories-3ed": {
+    "__comp": "17896441",
+    "content": "89ea6b2a"
+  },
+  "/vi/data/data-classifications-490": {
+    "__comp": "17896441",
+    "content": "d30999e9"
+  },
+  "/vi/data/data-customers-5f3": {
+    "__comp": "17896441",
+    "content": "ddf9f5fd"
+  },
+  "/vi/data/data-integrations-133": {
+    "__comp": "17896441",
+    "content": "b195412f"
+  },
+  "/vi/data/data-orders-60a": {
+    "__comp": "17896441",
+    "content": "fcc50bf7"
+  },
+  "/vi/data/data-product-filters-d63": {
+    "__comp": "17896441",
+    "content": "657e8731"
+  },
+  "/vi/data/data-products-ce1": {
+    "__comp": "17896441",
+    "content": "363faf28"
+  },
+  "/vi/data/data-shops-7b6": {
+    "__comp": "17896441",
+    "content": "52095d85"
+  },
+  "/vi/data/data-status-04b": {
+    "__comp": "17896441",
+    "content": "af697d09"
+  },
+  "/vi/data/data-stocks-778": {
+    "__comp": "17896441",
+    "content": "04227556"
+  },
+  "/vi/data/data-suppliers-b60": {
+    "__comp": "17896441",
+    "content": "da20fd1e"
+  },
+  "/vi/data/data-warehouses-9dc": {
+    "__comp": "17896441",
+    "content": "c14294ab"
   },
   "/vi/schema-reference-254": {
     "__comp": "17896441",

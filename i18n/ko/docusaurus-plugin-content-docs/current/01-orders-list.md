@@ -1,6 +1,6 @@
 ---
 id: 01-orders-list
-title: Orders List
+title: 주문 목록
 ---
 
 ## 주문 — 목록

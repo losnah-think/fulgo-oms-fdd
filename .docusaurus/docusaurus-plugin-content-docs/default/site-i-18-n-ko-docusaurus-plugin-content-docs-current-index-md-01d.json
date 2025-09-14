@@ -17,7 +17,7 @@
   },
   "sidebar": "tutorialSidebar",
   "next": {
-    "title": "Orders List",
+    "title": "주문 목록",
     "permalink": "/01-orders-list"
   }
 }

@@ -4,7 +4,7 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 export default [
   {
     path: '/vi/',
-    component: ComponentCreator('/vi/', 'f7b'),
+    component: ComponentCreator('/vi/', '972'),
     routes: [
       {
         path: '/vi/',
@@ -61,14 +61,88 @@ export default [
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/vi/design-system-colors',
-        component: ComponentCreator('/vi/design-system-colors', 'c99'),
-        exact: true
+        path: '/vi/data/data-brands',
+        component: ComponentCreator('/vi/data/data-brands', '4ca'),
+        exact: true,
+        sidebar: "tutorialSidebar"
       },
       {
-        path: '/vi/design-system-typography',
-        component: ComponentCreator('/vi/design-system-typography', 'c5f'),
-        exact: true
+        path: '/vi/data/data-cafe24-orders',
+        component: ComponentCreator('/vi/data/data-cafe24-orders', 'f5f'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/vi/data/data-categories',
+        component: ComponentCreator('/vi/data/data-categories', '3ed'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/vi/data/data-classifications',
+        component: ComponentCreator('/vi/data/data-classifications', '490'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/vi/data/data-customers',
+        component: ComponentCreator('/vi/data/data-customers', '5f3'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/vi/data/data-integrations',
+        component: ComponentCreator('/vi/data/data-integrations', '133'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/vi/data/data-orders',
+        component: ComponentCreator('/vi/data/data-orders', '60a'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/vi/data/data-product-filters',
+        component: ComponentCreator('/vi/data/data-product-filters', 'd63'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/vi/data/data-products',
+        component: ComponentCreator('/vi/data/data-products', 'ce1'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/vi/data/data-shops',
+        component: ComponentCreator('/vi/data/data-shops', '7b6'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/vi/data/data-status',
+        component: ComponentCreator('/vi/data/data-status', '04b'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/vi/data/data-stocks',
+        component: ComponentCreator('/vi/data/data-stocks', '778'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/vi/data/data-suppliers',
+        component: ComponentCreator('/vi/data/data-suppliers', 'b60'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/vi/data/data-warehouses',
+        component: ComponentCreator('/vi/data/data-warehouses', '9dc'),
+        exact: true,
+        sidebar: "tutorialSidebar"
       },
       {
         path: '/vi/schema-reference',

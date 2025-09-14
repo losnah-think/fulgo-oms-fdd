@@ -51,12 +51,74 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "design-system-colors",
-              "path": "/vi/design-system-colors"
+              "id": "data/data-brands",
+              "path": "/vi/data/data-brands",
+              "sidebar": "tutorialSidebar"
             },
             {
-              "id": "design-system-typography",
-              "path": "/vi/design-system-typography"
+              "id": "data/data-cafe24-orders",
+              "path": "/vi/data/data-cafe24-orders",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "data/data-categories",
+              "path": "/vi/data/data-categories",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "data/data-classifications",
+              "path": "/vi/data/data-classifications",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "data/data-customers",
+              "path": "/vi/data/data-customers",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "data/data-integrations",
+              "path": "/vi/data/data-integrations",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "data/data-orders",
+              "path": "/vi/data/data-orders",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "data/data-product-filters",
+              "path": "/vi/data/data-product-filters",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "data/data-products",
+              "path": "/vi/data/data-products",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "data/data-shops",
+              "path": "/vi/data/data-shops",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "data/data-status",
+              "path": "/vi/data/data-status",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "data/data-stocks",
+              "path": "/vi/data/data-stocks",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "data/data-suppliers",
+              "path": "/vi/data/data-suppliers",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "data/data-warehouses",
+              "path": "/vi/data/data-warehouses",
+              "sidebar": "tutorialSidebar"
             },
             {
               "id": "index",

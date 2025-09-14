@@ -18,7 +18,7 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "설정 - 외부 시스템 연결",
-    "permalink": "/08-settings-integrations"
+    "title": "창고 데이터 (mockWarehouses)",
+    "permalink": "/data/data-warehouses"
   }
 }

@@ -17,7 +17,7 @@
       },
       {
         "type": "category",
-        "label": "orders",
+        "label": "주문",
         "items": [
           {
             "type": "link",
@@ -37,7 +37,7 @@
       },
       {
         "type": "category",
-        "label": "products",
+        "label": "상품",
         "items": [
           {
             "type": "link",
@@ -57,7 +57,7 @@
       },
       {
         "type": "category",
-        "label": "stores",
+        "label": "쇼핑몰",
         "items": [
           {
             "type": "link",
@@ -71,7 +71,7 @@
       },
       {
         "type": "category",
-        "label": "catalog",
+        "label": "카탈로그",
         "items": [
           {
             "type": "link",
@@ -91,13 +91,105 @@
       },
       {
         "type": "category",
-        "label": "settings",
+        "label": "설정·통합",
         "items": [
           {
             "type": "link",
             "label": "Cài Đặt — Tích Hợp",
             "href": "/vi/08-settings-integrations",
             "docId": "08-settings-integrations"
+          }
+        ],
+        "collapsed": true,
+        "collapsible": true
+      },
+      {
+        "type": "category",
+        "label": "Data",
+        "items": [
+          {
+            "type": "link",
+            "label": "브랜드 데이터 (mockBrands)",
+            "href": "/vi/data/data-brands",
+            "docId": "data/data-brands"
+          },
+          {
+            "type": "link",
+            "label": "카테고리 데이터 (mockCategories)",
+            "href": "/vi/data/data-categories",
+            "docId": "data/data-categories"
+          },
+          {
+            "type": "link",
+            "label": "분류 데이터 (mockClassifications)",
+            "href": "/vi/data/data-classifications",
+            "docId": "data/data-classifications"
+          },
+          {
+            "type": "link",
+            "label": "고객 데이터 (mockCustomers)",
+            "href": "/vi/data/data-customers",
+            "docId": "data/data-customers"
+          },
+          {
+            "type": "link",
+            "label": "통합(Integration) 데이터 (mockIntegrations)",
+            "href": "/vi/data/data-integrations",
+            "docId": "data/data-integrations"
+          },
+          {
+            "type": "link",
+            "label": "주문 데이터 (mockOrders)",
+            "href": "/vi/data/data-orders",
+            "docId": "data/data-orders"
+          },
+          {
+            "type": "link",
+            "label": "Cafe24 주문 데이터 (mockCafe24Orders)",
+            "href": "/vi/data/data-cafe24-orders",
+            "docId": "data/data-cafe24-orders"
+          },
+          {
+            "type": "link",
+            "label": "상품 필터 (mockProductFilters)",
+            "href": "/vi/data/data-product-filters",
+            "docId": "data/data-product-filters"
+          },
+          {
+            "type": "link",
+            "label": "data-products",
+            "href": "/vi/data/data-products",
+            "docId": "data/data-products"
+          },
+          {
+            "type": "link",
+            "label": "쇼핑몰 / 사이트 (mockShops)",
+            "href": "/vi/data/data-shops",
+            "docId": "data/data-shops"
+          },
+          {
+            "type": "link",
+            "label": "상태 코드 (mockStatus)",
+            "href": "/vi/data/data-status",
+            "docId": "data/data-status"
+          },
+          {
+            "type": "link",
+            "label": "재고 데이터 (mockStocks)",
+            "href": "/vi/data/data-stocks",
+            "docId": "data/data-stocks"
+          },
+          {
+            "type": "link",
+            "label": "공급사 (mockSuppliers)",
+            "href": "/vi/data/data-suppliers",
+            "docId": "data/data-suppliers"
+          },
+          {
+            "type": "link",
+            "label": "창고 데이터 (mockWarehouses)",
+            "href": "/vi/data/data-warehouses",
+            "docId": "data/data-warehouses"
           }
         ],
         "collapsed": true,
@@ -160,15 +252,89 @@
       "description": "Cài đặt — Tích hợp",
       "sidebar": "tutorialSidebar"
     },
-    "design-system-colors": {
-      "id": "design-system-colors",
-      "title": "Design System — Color Values (HEX / RGB)",
-      "description": "이 문서는 요청에 따라 토큰명 / 역할 / 사용처 / 예시 / 금지 형태로 색상 토큰에 대한 실제 색상값(Hex / RGB)을 제공합니다. Pretendard Variable 사용과 함께 색상 토큰을 디자인에서 직접 사용하세요. (값은 예시이며 프로젝트 브랜딩에 맞춰 교체 가능합니다.)"
+    "data/data-brands": {
+      "id": "data/data-brands",
+      "title": "브랜드 데이터 (mockBrands)",
+      "description": "목적",
+      "sidebar": "tutorialSidebar"
     },
-    "design-system-typography": {
-      "id": "design-system-typography",
-      "title": "Design System — Typography Tokens",
-      "description": "이 문서는 디자인 시스템의 타이포그래피 토큰을 정리합니다. 각 토큰은 토큰명 / 역할 / 사용처 / 값(크기 / 굵기 / 행간) / 금지 형식으로 제공합니다."
+    "data/data-cafe24-orders": {
+      "id": "data/data-cafe24-orders",
+      "title": "Cafe24 주문 데이터 (mockCafe24Orders)",
+      "description": "목적",
+      "sidebar": "tutorialSidebar"
+    },
+    "data/data-categories": {
+      "id": "data/data-categories",
+      "title": "카테고리 데이터 (mockCategories)",
+      "description": "목적",
+      "sidebar": "tutorialSidebar"
+    },
+    "data/data-classifications": {
+      "id": "data/data-classifications",
+      "title": "분류 데이터 (mockClassifications)",
+      "description": "목적",
+      "sidebar": "tutorialSidebar"
+    },
+    "data/data-customers": {
+      "id": "data/data-customers",
+      "title": "고객 데이터 (mockCustomers)",
+      "description": "목적",
+      "sidebar": "tutorialSidebar"
+    },
+    "data/data-integrations": {
+      "id": "data/data-integrations",
+      "title": "통합(Integration) 데이터 (mockIntegrations)",
+      "description": "스키마",
+      "sidebar": "tutorialSidebar"
+    },
+    "data/data-orders": {
+      "id": "data/data-orders",
+      "title": "주문 데이터 (mockOrders)",
+      "description": "목적",
+      "sidebar": "tutorialSidebar"
+    },
+    "data/data-product-filters": {
+      "id": "data/data-product-filters",
+      "title": "상품 필터 (mockProductFilters)",
+      "description": "목적",
+      "sidebar": "tutorialSidebar"
+    },
+    "data/data-products": {
+      "id": "data/data-products",
+      "title": "data-products",
+      "description": "테스트 시나리오: 상품 데이터",
+      "sidebar": "tutorialSidebar"
+    },
+    "data/data-shops": {
+      "id": "data/data-shops",
+      "title": "쇼핑몰 / 사이트 (mockShops)",
+      "description": "목적",
+      "sidebar": "tutorialSidebar"
+    },
+    "data/data-status": {
+      "id": "data/data-status",
+      "title": "상태 코드 (mockStatus)",
+      "description": "목적",
+      "sidebar": "tutorialSidebar"
+    },
+    "data/data-stocks": {
+      "id": "data/data-stocks",
+      "title": "재고 데이터 (mockStocks)",
+      "description": "목적",
+      "sidebar": "tutorialSidebar"
+    },
+    "data/data-suppliers": {
+      "id": "data/data-suppliers",
+      "title": "공급사 (mockSuppliers)",
+      "description": "목적",
+      "sidebar": "tutorialSidebar"
+    },
+    "data/data-warehouses": {
+      "id": "data/data-warehouses",
+      "title": "창고 데이터 (mockWarehouses)",
+      "description": "목적",
+      "sidebar": "tutorialSidebar"
     },
     "index": {
       "id": "index",
