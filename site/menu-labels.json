@@ -1,0 +1,32 @@
+{
+  "ko": {
+    "overview": "개요",
+    "orders": "주문",
+    "products": "상품",
+    "stores": "몰",
+    "catalog": "카탈로그",
+    "settings": "설정·통합",
+    "designSystem": "Design System",
+    "schema": "Schema"
+  },
+  "en": {
+    "overview": "Overview",
+    "orders": "Orders",
+    "products": "Products",
+    "stores": "Malls",
+    "catalog": "Catalog",
+    "settings": "Settings & Integrations",
+    "designSystem": "Design System",
+    "schema": "Schema"
+  },
+  "vi": {
+    "overview": "Tổng quan",
+    "orders": "Đơn hàng",
+    "products": "Sản phẩm",
+    "stores": "Mall",
+    "catalog": "Danh mục",
+    "settings": "Cài đặt & Tích hợp",
+    "designSystem": "Design System",
+    "schema": "Schema"
+  }
+}
