@@ -1,14 +1,7 @@
 ---
-id: data-categories
-title: (archived) 카테고리 데이터
+archivedFrom: docs/data/categories.md
 ---
 
-ARCHIVED duplicate of `data-categories.md`
-
----
-Original content below:
-
-```
 ---
 id: data-categories
 title: 카테고리 데이터 (mockCategories)
@@ -30,15 +23,14 @@ title: 카테고리 데이터 (mockCategories)
 
 ```json
 [
-	{ "id": "cat-1", "code": "CAT-20250913-7392-1", "name": "카테고리1", "parentId": null, "path": ["카테고리1"] },
-	{ "id": "cat-2", "code": "CAT-20250913-2391-2", "name": "하위카테고리", "parentId": "cat-1", "path": ["카테고리1","하위카테고리"] }
+  { "id": "cat-1", "code": "CAT-20250913-7392-1", "name": "카테고리1", "parentId": null, "path": ["카테고리1"] },
+  { "id": "cat-2", "code": "CAT-20250913-2391-2", "name": "하위카테고리", "parentId": "cat-1", "path": ["카테고리1","하위카테고리"] }
 ]
 ```
 
 **비고**
 
 카테고리 변경 시 클라이언트 캐시 invalidation 전략을 고려하세요.
-
 id: data-categories
 title: 카테고리 데이터 (mockCategories)
 
@@ -61,9 +53,9 @@ slug: /data/data-categories
 
 ```json
 [
-	{ "id": "cat-1", "code": "CAT-20250913-7392-1", "name": "카테고리1" },
-	{ "id": "cat-2", "code": "CAT-20250913-2391-2", "name": "카테고리2" }
+  { "id": "cat-1", "code": "CAT-20250913-7392-1", "name": "카테고리1" },
+  { "id": "cat-2", "code": "CAT-20250913-2391-2", "name": "카테고리2" }
 ]
 ```
-
 ```
+

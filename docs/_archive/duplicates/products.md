@@ -1,21 +1,79 @@
 ---
-id: data-products
-title: (archived) 상품 데이터
+archivedFrom: docs/data/products.md
 ---
 
-ARCHIVED duplicate of `data-products.md`
-
----
-Original content below:
-
-```
 ---
 id: data-products
 title: 상품 데이터 (mockProducts)
 ---
 
+상품 목업 데이터의 스키마와 예시입니다. `variants` 배열을 포함합니다.
+
+주요 필드
+
+- `id`, `code`, `name`, `brand`, `brand_id`
+- `classificationPath`, `classification`, `classificationId`
+- `selling_price`, `supply_price`, `cost_price`
+- `supplier_id`, `category_id`, `description`
+- `is_dutyfree`, `created_at`, `updated_at`, `made_date`, `expr_date`
+- `variants`: [{ `id`, `variant_name`, `stock`, `cost_price`, `selling_price`, `code`, `barcode1`, `is_selling` }]
+
+간단 예시
+---
+id: data-products
+title: 상품 데이터 (mockProducts)
+---
+
+**목적**
+
 상품(제품) 관련 목업 스키마와 예시를 제공합니다. 변형(variants)과 가격/재고 관련 필드를 포함합니다.
 
-... (truncated)
+**스키마(주요 필드)**
 
+- `id`: number|string — 제품 고유 ID
+- `code`: string — 내부 코드
+- `name`: string — 제품명
+- `brand`: string — 브랜드명
+- `brand_id`: string — 브랜드 ID
+- `classificationPath`: string[] — 분류 경로
+- `classificationId`: string — 분류 ID
+- `selling_price`: number — 판매가
+- `supply_price`: number — 공급가
+- `cost_price`: number — 원가
+- `stock`: number — 전체 재고
+- `status`: string — 상태
+- `variants`: array — 옵션/변형 목록 (각 항목에 `id`, `variant_name`, `stock`, `selling_price` 등)
+
+**예시(단일)**
+
+```json
+{
+  "id": 1,
+  "code": "PRD-20250913-4823-1",
+  "name": "상품1",
+  "brand": "브랜드1",
+  "brand_id": "brand-1",
+  "classificationPath": ["의류","남성","셔츠"],
+  "classificationId": "c-1",
+  "selling_price": 10000,
+  "stock": 120,
+  "status": "active",
+  "variants": [
+    { "id": 1, "variant_name": "옵션1", "stock": 10, "selling_price": 10000 }
+  ]
+}
 ```
+
+**예시(여러 상품)**
+
+```json
+[
+  { "id": 1, "code": "PRD-20250913-4823-1", "name": "상품1", "brand": "브랜드1", "selling_price": 10000 },
+  { "id": 2, "code": "PRD-20250913-4921-2", "name": "상품2", "brand": "브랜드2", "selling_price": 10200 }
+]
+```
+
+**비고**
+
+가격/통화 규약, 세금(부가세) 처리, 옵션 식별자 규칙을 문서화하세요.
+
