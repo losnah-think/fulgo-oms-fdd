@@ -10,11 +10,10 @@ module.exports = {
   },
   title: 'FULGO OMS Docs',
   tagline: 'FDD Documentation',
-  url: 'https://your-domain.com',
   // Allow overriding site URL and baseUrl via environment variables so the
   // same repo can deploy to GitHub Pages (gh-pages) or Vercel.
   // Set SITE_URL and BASE_URL in CI (e.g. SITE_URL=https://losnah-think.github.io BASE_URL=/fulgo-oms-fdd/)
-  url: process.env.SITE_URL || 'https://fulgo-oms.vercel.app',
+  url: process.env.SITE_URL || 'https://fulgo-oms-fdd.vercel.app',
   baseUrl: process.env.BASE_URL || '/',
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
