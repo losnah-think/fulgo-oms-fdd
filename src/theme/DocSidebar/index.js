@@ -51,19 +51,19 @@ export default function DocSidebar(props){
   // If labels not loaded yet, render original sidebar
   if(!labels) return <OriginalDocSidebar {...props} />;
 
-  const locale = (i18n && i18n.currentLocale) || document.documentElement.getAttribute('lang') || 'ko';
-  const L = labels[locale] || labels['en'];
+  const locale = (i18n && i18n.currentLocale) || (typeof window !== 'undefined' ? document.documentElement.getAttribute('lang') : null) || 'ko';
+  const L = (labels && (labels[locale] || labels['en'])) || {};
 
   // Deep clone items to avoid mutating original props
   const newItems = JSON.parse(JSON.stringify(props.items || []));
 
   function applyLabels(items){
-    if(!items) return items;
+    if(!Array.isArray(items)) return items;
     return items.map(item=>{
-      if(item.type === 'category'){
+      if(item && item.type === 'category'){
         const key = (item.label || '').toLowerCase();
-        if(key && L[key]) item.label = L[key];
-        if(item.items) item.items = applyLabels(item.items);
+        if(key && typeof L[key] === 'string') item.label = L[key];
+        if(Array.isArray(item.items)) item.items = applyLabels(item.items);
         return item;
       }
       return item;
