@@ -27,7 +27,7 @@ module.exports = {
         docs: {
           routeBasePath: '/',
           sidebarPath: require.resolve('./sidebars.js'),
-          editUrl: 'https://github.com/losnah-think/fulgo-oms-fdd/edit/main/docusaurus/',
+          editUrl: 'https://github.com/losnah-think/fulgo-oms-fdd/edit/main/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
