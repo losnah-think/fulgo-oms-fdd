@@ -1,8 +1,8 @@
 {
   "unversionedId": "08-settings-integrations",
   "id": "08-settings-integrations",
-  "title": "Settings Integrations",
-  "description": "설정 — 통합(Integrations)",
+  "title": "설정 - 외부 시스템 연결",
+  "description": "설정 — 외부 시스템 연결",
   "source": "@site/i18n/ko/docusaurus-plugin-content-docs/current/08-settings-integrations.md",
   "sourceDirName": ".",
   "slug": "/08-settings-integrations",
@@ -14,11 +14,11 @@
   "sidebarPosition": 8,
   "frontMatter": {
     "id": "08-settings-integrations",
-    "title": "Settings Integrations"
+    "title": "설정 - 외부 시스템 연결"
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Vendors",
+    "title": "공급사(벤더)",
     "permalink": "/07-vendors"
   },
   "next": {

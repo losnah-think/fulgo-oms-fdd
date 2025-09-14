@@ -1,7 +1,7 @@
 {
   "unversionedId": "07-vendors",
   "id": "07-vendors",
-  "title": "Vendors",
+  "title": "공급사(벤더)",
   "description": "공급사(벤더) — 관리",
   "source": "@site/i18n/ko/docusaurus-plugin-content-docs/current/07-vendors.md",
   "sourceDirName": ".",
@@ -14,15 +14,15 @@
   "sidebarPosition": 7,
   "frontMatter": {
     "id": "07-vendors",
-    "title": "Vendors"
+    "title": "공급사(벤더)"
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Categories",
+    "title": "상품분류(카테고리)",
     "permalink": "/06-categories"
   },
   "next": {
-    "title": "Settings Integrations",
+    "title": "설정 - 외부 시스템 연결",
     "permalink": "/08-settings-integrations"
   }
 }

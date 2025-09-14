@@ -1,8 +1,8 @@
 {
   "unversionedId": "05-malls",
   "id": "05-malls",
-  "title": "Malls",
-  "description": "몰(Malls) — 관리",
+  "title": "쇼핑몰",
+  "description": "쇼핑몰(Malls) — 관리",
   "source": "@site/i18n/ko/docusaurus-plugin-content-docs/current/05-malls.md",
   "sourceDirName": ".",
   "slug": "/05-malls",
@@ -14,15 +14,15 @@
   "sidebarPosition": 5,
   "frontMatter": {
     "id": "05-malls",
-    "title": "Malls"
+    "title": "쇼핑몰"
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Product Detail",
+    "title": "상품 상세",
     "permalink": "/04-products-detail"
   },
   "next": {
-    "title": "Categories",
+    "title": "상품분류(카테고리)",
     "permalink": "/06-categories"
   }
 }

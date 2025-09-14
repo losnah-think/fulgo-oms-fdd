@@ -30,7 +30,7 @@ export default {
   "title": "FULGO OMS Docs",
   "tagline": "FDD Documentation",
   "url": "https://fulgo-oms-fdd.vercel.app",
-  "baseUrl": "/",
+  "baseUrl": "/vi/",
   "onBrokenLinks": "warn",
   "onBrokenMarkdownLinks": "warn",
   "favicon": "img/favicon.ico",

@@ -1,100 +1,57 @@
 {
-  "/__docusaurus/debug-588": {
-    "__comp": "__comp---theme-debug-config-23-a-2ff",
+  "/vi/-f7b": {
+    "__comp": "1be78505",
     "__context": {
-      "plugin": "plugin---docusaurus-debuga-2-c-693"
-    }
-  },
-  "/__docusaurus/debug/config-131": {
-    "__comp": "__comp---theme-debug-config-23-a-2ff",
-    "__context": {
-      "plugin": "plugin---docusaurus-debuga-2-c-693"
-    }
-  },
-  "/__docusaurus/debug/content-52e": {
-    "__comp": "__comp---theme-debug-contentba-8-ce7",
-    "__context": {
-      "plugin": "plugin---docusaurus-debuga-2-c-693"
+      "plugin": "1a9843ed"
     },
-    "allContent": "allContent---docusaurus-debug-content-246-9aa"
+    "versionMetadata": "935f2afb"
   },
-  "/__docusaurus/debug/globalData-4b4": {
-    "__comp": "__comp---theme-debug-global-dataede-0fa",
-    "__context": {
-      "plugin": "plugin---docusaurus-debuga-2-c-693"
-    }
+  "/vi/-3b1": {
+    "__comp": "17896441",
+    "content": "4ba753a4"
   },
-  "/__docusaurus/debug/metadata-832": {
-    "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
-    "__context": {
-      "plugin": "plugin---docusaurus-debuga-2-c-693"
-    }
+  "/vi/01-orders-list-3c6": {
+    "__comp": "17896441",
+    "content": "1cbaaf9b"
   },
-  "/__docusaurus/debug/registry-91d": {
-    "__comp": "__comp---theme-debug-registry-679-501",
-    "__context": {
-      "plugin": "plugin---docusaurus-debuga-2-c-693"
-    }
+  "/vi/02-orders-detail-09f": {
+    "__comp": "17896441",
+    "content": "18115eb3"
   },
-  "/__docusaurus/debug/routes-e75": {
-    "__comp": "__comp---theme-debug-routes-946-699",
-    "__context": {
-      "plugin": "plugin---docusaurus-debuga-2-c-693"
-    }
+  "/vi/03-products-list-c28": {
+    "__comp": "17896441",
+    "content": "a9b111c3"
   },
-  "/-72b": {
-    "__comp": "__comp---theme-doc-page-1-be-9be",
-    "__context": {
-      "plugin": "plugin---1-a-9-17b"
-    },
-    "versionMetadata": "versionMetadata---935-fcf"
+  "/vi/04-products-detail-cbc": {
+    "__comp": "17896441",
+    "content": "baba75ea"
   },
-  "/-a33": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---01-d-3b9"
+  "/vi/05-malls-15f": {
+    "__comp": "17896441",
+    "content": "84bbea3d"
   },
-  "/01-orders-list-035": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---01-orders-list-832-d75"
+  "/vi/06-categories-1a6": {
+    "__comp": "17896441",
+    "content": "015c0ffb"
   },
-  "/02-orders-detail-3a3": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---02-orders-detail-6-e-7-bd7"
+  "/vi/07-vendors-ff0": {
+    "__comp": "17896441",
+    "content": "561b6d11"
   },
-  "/03-products-list-1f9": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---03-products-list-1-b-8-da5"
+  "/vi/08-settings-integrations-2df": {
+    "__comp": "17896441",
+    "content": "d7415898"
   },
-  "/04-products-detail-a85": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---04-products-detailbde-e99"
+  "/vi/design-system-colors-c99": {
+    "__comp": "17896441",
+    "content": "0f7d5d0d"
   },
-  "/05-malls-436": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---05-mallsfd-6-231"
+  "/vi/design-system-typography-c5f": {
+    "__comp": "17896441",
+    "content": "b933a8ab"
   },
-  "/06-categories-670": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---06-categories-028-3b2"
-  },
-  "/07-vendors-9ed": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---07-vendorsf-45-85e"
-  },
-  "/08-settings-integrations-61b": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---08-settings-integrations-3-ec-e38"
-  },
-  "/design-system-colors-fb8": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---design-system-colors-0-f-7-d09"
-  },
-  "/design-system-typography-279": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---design-system-typographyb-93-1ef"
-  },
-  "/schema-reference-a4c": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---schema-referencee-0-e-ec1"
+  "/vi/schema-reference-254": {
+    "__comp": "17896441",
+    "content": "6001f8f8"
   }
 }

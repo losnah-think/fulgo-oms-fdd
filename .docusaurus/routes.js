@@ -3,111 +3,76 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
-    path: '/__docusaurus/debug',
-    component: ComponentCreator('/__docusaurus/debug', '588'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/config',
-    component: ComponentCreator('/__docusaurus/debug/config', '131'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/content',
-    component: ComponentCreator('/__docusaurus/debug/content', '52e'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/globalData',
-    component: ComponentCreator('/__docusaurus/debug/globalData', '4b4'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/metadata',
-    component: ComponentCreator('/__docusaurus/debug/metadata', '832'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/registry',
-    component: ComponentCreator('/__docusaurus/debug/registry', '91d'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/routes',
-    component: ComponentCreator('/__docusaurus/debug/routes', 'e75'),
-    exact: true
-  },
-  {
-    path: '/',
-    component: ComponentCreator('/', '72b'),
+    path: '/vi/',
+    component: ComponentCreator('/vi/', 'f7b'),
     routes: [
       {
-        path: '/',
-        component: ComponentCreator('/', 'a33'),
+        path: '/vi/',
+        component: ComponentCreator('/vi/', '3b1'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/01-orders-list',
-        component: ComponentCreator('/01-orders-list', '035'),
+        path: '/vi/01-orders-list',
+        component: ComponentCreator('/vi/01-orders-list', '3c6'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/02-orders-detail',
-        component: ComponentCreator('/02-orders-detail', '3a3'),
+        path: '/vi/02-orders-detail',
+        component: ComponentCreator('/vi/02-orders-detail', '09f'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/03-products-list',
-        component: ComponentCreator('/03-products-list', '1f9'),
+        path: '/vi/03-products-list',
+        component: ComponentCreator('/vi/03-products-list', 'c28'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/04-products-detail',
-        component: ComponentCreator('/04-products-detail', 'a85'),
+        path: '/vi/04-products-detail',
+        component: ComponentCreator('/vi/04-products-detail', 'cbc'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/05-malls',
-        component: ComponentCreator('/05-malls', '436'),
+        path: '/vi/05-malls',
+        component: ComponentCreator('/vi/05-malls', '15f'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/06-categories',
-        component: ComponentCreator('/06-categories', '670'),
+        path: '/vi/06-categories',
+        component: ComponentCreator('/vi/06-categories', '1a6'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/07-vendors',
-        component: ComponentCreator('/07-vendors', '9ed'),
+        path: '/vi/07-vendors',
+        component: ComponentCreator('/vi/07-vendors', 'ff0'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/08-settings-integrations',
-        component: ComponentCreator('/08-settings-integrations', '61b'),
+        path: '/vi/08-settings-integrations',
+        component: ComponentCreator('/vi/08-settings-integrations', '2df'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/design-system-colors',
-        component: ComponentCreator('/design-system-colors', 'fb8'),
+        path: '/vi/design-system-colors',
+        component: ComponentCreator('/vi/design-system-colors', 'c99'),
         exact: true
       },
       {
-        path: '/design-system-typography',
-        component: ComponentCreator('/design-system-typography', '279'),
+        path: '/vi/design-system-typography',
+        component: ComponentCreator('/vi/design-system-typography', 'c5f'),
         exact: true
       },
       {
-        path: '/schema-reference',
-        component: ComponentCreator('/schema-reference', 'a4c'),
+        path: '/vi/schema-reference',
+        component: ComponentCreator('/vi/schema-reference', '254'),
         exact: true,
         sidebar: "tutorialSidebar"
       }

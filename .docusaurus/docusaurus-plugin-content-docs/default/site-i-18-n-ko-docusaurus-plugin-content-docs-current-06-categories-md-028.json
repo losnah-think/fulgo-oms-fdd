@@ -1,7 +1,7 @@
 {
   "unversionedId": "06-categories",
   "id": "06-categories",
-  "title": "Categories",
+  "title": "상품분류(카테고리)",
   "description": "카테고리 — 관리",
   "source": "@site/i18n/ko/docusaurus-plugin-content-docs/current/06-categories.md",
   "sourceDirName": ".",
@@ -14,15 +14,15 @@
   "sidebarPosition": 6,
   "frontMatter": {
     "id": "06-categories",
-    "title": "Categories"
+    "title": "상품분류(카테고리)"
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Malls",
+    "title": "쇼핑몰",
     "permalink": "/05-malls"
   },
   "next": {
-    "title": "Vendors",
+    "title": "공급사(벤더)",
     "permalink": "/07-vendors"
   }
 }

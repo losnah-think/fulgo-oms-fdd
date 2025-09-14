@@ -1,71 +1,71 @@
 {
   "docusaurus-plugin-content-docs": {
     "default": {
-      "path": "/",
+      "path": "/vi/",
       "versions": [
         {
           "name": "current",
           "label": "Next",
           "isLast": true,
-          "path": "/",
+          "path": "/vi/",
           "mainDocId": "index",
           "docs": [
             {
               "id": "01-orders-list",
-              "path": "/01-orders-list",
+              "path": "/vi/01-orders-list",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "02-orders-detail",
-              "path": "/02-orders-detail",
+              "path": "/vi/02-orders-detail",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "03-products-list",
-              "path": "/03-products-list",
+              "path": "/vi/03-products-list",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "04-products-detail",
-              "path": "/04-products-detail",
+              "path": "/vi/04-products-detail",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "05-malls",
-              "path": "/05-malls",
+              "path": "/vi/05-malls",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "06-categories",
-              "path": "/06-categories",
+              "path": "/vi/06-categories",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "07-vendors",
-              "path": "/07-vendors",
+              "path": "/vi/07-vendors",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "08-settings-integrations",
-              "path": "/08-settings-integrations",
+              "path": "/vi/08-settings-integrations",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "design-system-colors",
-              "path": "/design-system-colors"
+              "path": "/vi/design-system-colors"
             },
             {
               "id": "design-system-typography",
-              "path": "/design-system-typography"
+              "path": "/vi/design-system-typography"
             },
             {
               "id": "index",
-              "path": "/",
+              "path": "/vi/",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "schema-reference",
-              "path": "/schema-reference",
+              "path": "/vi/schema-reference",
               "sidebar": "tutorialSidebar"
             }
           ],
@@ -73,7 +73,7 @@
           "sidebars": {
             "tutorialSidebar": {
               "link": {
-                "path": "/",
+                "path": "/vi/",
                 "label": "index"
               }
             }

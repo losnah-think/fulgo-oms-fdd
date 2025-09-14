@@ -1,7 +1,7 @@
 {
   "unversionedId": "04-products-detail",
   "id": "04-products-detail",
-  "title": "Product Detail",
+  "title": "상품 상세",
   "description": "제품 — 상세",
   "source": "@site/i18n/ko/docusaurus-plugin-content-docs/current/04-products-detail.md",
   "sourceDirName": ".",
@@ -14,7 +14,7 @@
   "sidebarPosition": 4,
   "frontMatter": {
     "id": "04-products-detail",
-    "title": "Product Detail"
+    "title": "상품 상세"
   },
   "sidebar": "tutorialSidebar",
   "previous": {
@@ -22,7 +22,7 @@
     "permalink": "/03-products-list"
   },
   "next": {
-    "title": "Malls",
+    "title": "쇼핑몰",
     "permalink": "/05-malls"
   }
 }

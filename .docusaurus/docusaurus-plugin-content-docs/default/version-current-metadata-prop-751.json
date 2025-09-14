@@ -11,8 +11,8 @@
     "tutorialSidebar": [
       {
         "type": "link",
-        "label": "Fulgo OMS Docs (KR)",
-        "href": "/",
+        "label": "Tài Liệu Thiết Kế Chức Năng FULGO OMS",
+        "href": "/vi/",
         "docId": "index"
       },
       {
@@ -21,14 +21,14 @@
         "items": [
           {
             "type": "link",
-            "label": "Orders List",
-            "href": "/01-orders-list",
+            "label": "Danh Sách Đơn Hàng",
+            "href": "/vi/01-orders-list",
             "docId": "01-orders-list"
           },
           {
             "type": "link",
-            "label": "Orders Detail",
-            "href": "/02-orders-detail",
+            "label": "Chi Tiết Đơn Hàng",
+            "href": "/vi/02-orders-detail",
             "docId": "02-orders-detail"
           }
         ],
@@ -41,14 +41,14 @@
         "items": [
           {
             "type": "link",
-            "label": "Products List",
-            "href": "/03-products-list",
+            "label": "Danh Sách Sản Phẩm",
+            "href": "/vi/03-products-list",
             "docId": "03-products-list"
           },
           {
             "type": "link",
-            "label": "Product Detail",
-            "href": "/04-products-detail",
+            "label": "Chi Tiết Sản Phẩm",
+            "href": "/vi/04-products-detail",
             "docId": "04-products-detail"
           }
         ],
@@ -62,7 +62,7 @@
           {
             "type": "link",
             "label": "Malls",
-            "href": "/05-malls",
+            "href": "/vi/05-malls",
             "docId": "05-malls"
           }
         ],
@@ -76,13 +76,13 @@
           {
             "type": "link",
             "label": "Categories",
-            "href": "/06-categories",
+            "href": "/vi/06-categories",
             "docId": "06-categories"
           },
           {
             "type": "link",
-            "label": "Vendors",
-            "href": "/07-vendors",
+            "label": "Nhà Cung Cấp",
+            "href": "/vi/07-vendors",
             "docId": "07-vendors"
           }
         ],
@@ -95,8 +95,8 @@
         "items": [
           {
             "type": "link",
-            "label": "Settings Integrations",
-            "href": "/08-settings-integrations",
+            "label": "Cài Đặt — Tích Hợp",
+            "href": "/vi/08-settings-integrations",
             "docId": "08-settings-integrations"
           }
         ],
@@ -105,8 +105,8 @@
       },
       {
         "type": "link",
-        "label": "스키마 레퍼런스",
-        "href": "/schema-reference",
+        "label": "Tham Khảo Schema",
+        "href": "/vi/schema-reference",
         "docId": "schema-reference"
       }
     ]
@@ -114,50 +114,50 @@
   "docs": {
     "01-orders-list": {
       "id": "01-orders-list",
-      "title": "Orders List",
-      "description": "주문 — 목록",
+      "title": "Danh Sách Đơn Hàng",
+      "description": "Tổng quan",
       "sidebar": "tutorialSidebar"
     },
     "02-orders-detail": {
       "id": "02-orders-detail",
-      "title": "Orders Detail",
-      "description": "주문 — 상세",
+      "title": "Chi Tiết Đơn Hàng",
+      "description": "Đơn Hàng — Chi Tiết",
       "sidebar": "tutorialSidebar"
     },
     "03-products-list": {
       "id": "03-products-list",
-      "title": "Products List",
-      "description": "제품 — 목록",
+      "title": "Danh Sách Sản Phẩm",
+      "description": "Mục đích",
       "sidebar": "tutorialSidebar"
     },
     "04-products-detail": {
       "id": "04-products-detail",
-      "title": "Product Detail",
-      "description": "제품 — 상세",
+      "title": "Chi Tiết Sản Phẩm",
+      "description": "Tổng quan",
       "sidebar": "tutorialSidebar"
     },
     "05-malls": {
       "id": "05-malls",
       "title": "Malls",
-      "description": "몰(Malls) — 관리",
+      "description": "Malls — Quản lý",
       "sidebar": "tutorialSidebar"
     },
     "06-categories": {
       "id": "06-categories",
       "title": "Categories",
-      "description": "카테고리 — 관리",
+      "description": "Danh mục — Quản lý",
       "sidebar": "tutorialSidebar"
     },
     "07-vendors": {
       "id": "07-vendors",
-      "title": "Vendors",
-      "description": "공급사(벤더) — 관리",
+      "title": "Nhà Cung Cấp",
+      "description": "Tổng quan",
       "sidebar": "tutorialSidebar"
     },
     "08-settings-integrations": {
       "id": "08-settings-integrations",
-      "title": "Settings Integrations",
-      "description": "설정 — 통합(Integrations)",
+      "title": "Cài Đặt — Tích Hợp",
+      "description": "Cài đặt — Tích hợp",
       "sidebar": "tutorialSidebar"
     },
     "design-system-colors": {
@@ -172,14 +172,14 @@
     },
     "index": {
       "id": "index",
-      "title": "Fulgo OMS Docs (KR)",
-      "description": "환영합니다. 이 섹션은 FULGO OMS의 주요 사용자 문서와 설계/운영 가이드를 포함합니다.",
+      "title": "Tài Liệu Thiết Kế Chức Năng FULGO OMS",
+      "description": "Chào mừng đến với tài liệu thiết kế chức năng của Hệ thống Quản lý Đơn hàng (OMS) FULGO. Tài liệu này mô tả các khái niệm cốt lõi, luồng công việc và mô hình dữ liệu của OMS.",
       "sidebar": "tutorialSidebar"
     },
     "schema-reference": {
       "id": "schema-reference",
-      "title": "스키마 레퍼런스",
-      "description": "이 문서는 FULGO OMS에서 사용되는 주요 데이터베이스 테이블과 Prisma 모델을 요약합니다. 아래 예시는 프로젝트의 DDL/스키마에서 발췌한 설명적 예시입니다.",
+      "title": "Tham Khảo Schema",
+      "description": "Tài liệu này tóm tắt các bảng cơ sở dữ liệu chính và các model Prisma được FULGO OMS sử dụng. Các ví dụ bên dưới là trích dẫn minh họa từ DDL/schema dự án.",
       "sidebar": "tutorialSidebar"
     }
   }
