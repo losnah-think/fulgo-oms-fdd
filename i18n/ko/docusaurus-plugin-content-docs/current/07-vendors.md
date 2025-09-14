@@ -1,6 +1,6 @@
 ---
 id: 07-vendors
-title: Vendors
+title: 공급사(벤더)
 ---
 
 ## 공급사(벤더) — 관리

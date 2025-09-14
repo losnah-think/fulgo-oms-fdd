@@ -1,0 +1,24 @@
+{
+  "unversionedId": "schema-reference",
+  "id": "schema-reference",
+  "title": "Tham Khảo Schema",
+  "description": "Tài liệu này tóm tắt các bảng cơ sở dữ liệu chính và các model Prisma được FULGO OMS sử dụng. Các ví dụ bên dưới là trích dẫn minh họa từ DDL/schema dự án.",
+  "source": "@site/i18n/vi/docusaurus-plugin-content-docs/current/99-schema-reference.md",
+  "sourceDirName": ".",
+  "slug": "/schema-reference",
+  "permalink": "/vi/schema-reference",
+  "draft": false,
+  "editUrl": "https://github.com/losnah-think/fulgo-oms-fdd/edit/main/docs/99-schema-reference.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 99,
+  "frontMatter": {
+    "id": "schema-reference",
+    "title": "Tham Khảo Schema"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Cài Đặt — Tích Hợp",
+    "permalink": "/vi/08-settings-integrations"
+  }
+}

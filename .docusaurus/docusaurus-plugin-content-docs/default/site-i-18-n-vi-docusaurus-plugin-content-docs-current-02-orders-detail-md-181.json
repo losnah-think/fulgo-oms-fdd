@@ -1,12 +1,12 @@
 {
   "unversionedId": "02-orders-detail",
   "id": "02-orders-detail",
-  "title": "Orders Detail",
-  "description": "주문 — 상세",
-  "source": "@site/i18n/ko/docusaurus-plugin-content-docs/current/02-orders-detail.md",
+  "title": "Chi Tiết Đơn Hàng",
+  "description": "Đơn Hàng — Chi Tiết",
+  "source": "@site/i18n/vi/docusaurus-plugin-content-docs/current/02-orders-detail.md",
   "sourceDirName": ".",
   "slug": "/02-orders-detail",
-  "permalink": "/02-orders-detail",
+  "permalink": "/vi/02-orders-detail",
   "draft": false,
   "editUrl": "https://github.com/losnah-think/fulgo-oms-fdd/edit/main/docs/02-orders-detail.md",
   "tags": [],
@@ -14,15 +14,15 @@
   "sidebarPosition": 2,
   "frontMatter": {
     "id": "02-orders-detail",
-    "title": "Orders Detail"
+    "title": "Chi Tiết Đơn Hàng"
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Orders List",
-    "permalink": "/01-orders-list"
+    "title": "Danh Sách Đơn Hàng",
+    "permalink": "/vi/01-orders-list"
   },
   "next": {
-    "title": "Products List",
-    "permalink": "/03-products-list"
+    "title": "Danh Sách Sản Phẩm",
+    "permalink": "/vi/03-products-list"
   }
 }

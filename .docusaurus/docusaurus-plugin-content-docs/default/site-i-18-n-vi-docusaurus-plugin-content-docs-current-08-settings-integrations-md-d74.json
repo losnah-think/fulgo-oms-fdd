@@ -1,12 +1,12 @@
 {
   "unversionedId": "08-settings-integrations",
   "id": "08-settings-integrations",
-  "title": "Settings Integrations",
-  "description": "설정 — 통합(Integrations)",
-  "source": "@site/i18n/ko/docusaurus-plugin-content-docs/current/08-settings-integrations.md",
+  "title": "Cài Đặt — Tích Hợp",
+  "description": "Cài đặt — Tích hợp",
+  "source": "@site/i18n/vi/docusaurus-plugin-content-docs/current/08-settings-integrations.md",
   "sourceDirName": ".",
   "slug": "/08-settings-integrations",
-  "permalink": "/08-settings-integrations",
+  "permalink": "/vi/08-settings-integrations",
   "draft": false,
   "editUrl": "https://github.com/losnah-think/fulgo-oms-fdd/edit/main/docs/08-settings-integrations.md",
   "tags": [],
@@ -14,15 +14,15 @@
   "sidebarPosition": 8,
   "frontMatter": {
     "id": "08-settings-integrations",
-    "title": "Settings Integrations"
+    "title": "Cài Đặt — Tích Hợp"
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Vendors",
-    "permalink": "/07-vendors"
+    "title": "Nhà Cung Cấp",
+    "permalink": "/vi/07-vendors"
   },
   "next": {
-    "title": "스키마 레퍼런스",
-    "permalink": "/schema-reference"
+    "title": "Tham Khảo Schema",
+    "permalink": "/vi/schema-reference"
   }
 }

@@ -1,0 +1,24 @@
+{
+  "unversionedId": "schema-reference",
+  "id": "schema-reference",
+  "title": "Schema Reference",
+  "description": "This document summarizes the primary database tables and Prisma models used by FULGO OMS. The examples below are illustrative excerpts derived from the project's DDL/schema.",
+  "source": "@site/i18n/en/docusaurus-plugin-content-docs/current/99-schema-reference.md",
+  "sourceDirName": ".",
+  "slug": "/schema-reference",
+  "permalink": "/en/schema-reference",
+  "draft": false,
+  "editUrl": "https://github.com/losnah-think/fulgo-oms-fdd/edit/main/docs/99-schema-reference.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 99,
+  "frontMatter": {
+    "id": "schema-reference",
+    "title": "Schema Reference"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Settings Integrations",
+    "permalink": "/en/08-settings-integrations"
+  }
+}

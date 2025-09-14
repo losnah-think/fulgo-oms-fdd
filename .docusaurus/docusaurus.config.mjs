@@ -29,13 +29,13 @@ export default {
   },
   "title": "FULGO OMS Docs",
   "tagline": "FDD Documentation",
-  "url": "https://your-domain.com",
+  "url": "https://fulgo-oms-fdd.vercel.app",
   "baseUrl": "/",
   "onBrokenLinks": "warn",
   "onBrokenMarkdownLinks": "warn",
   "favicon": "img/favicon.ico",
-  "organizationName": "your-org",
-  "projectName": "fulgo-docs",
+  "organizationName": "losnah-think",
+  "projectName": "fulgo-oms-fdd",
   "presets": [
     [
       "@docusaurus/preset-classic",
@@ -43,7 +43,7 @@ export default {
         "docs": {
           "routeBasePath": "/",
           "sidebarPath": "/Users/sotatekthor/Desktop/FULGO_OMS/fulgo-docs/docusaurus/sidebars.js",
-          "editUrl": "https://github.com/your-org/fulgo-docs/edit/main/docusaurus/"
+          "editUrl": "https://github.com/losnah-think/fulgo-oms-fdd/edit/main/"
         },
         "theme": {
           "customCss": "/Users/sotatekthor/Desktop/FULGO_OMS/fulgo-docs/docusaurus/src/css/custom.css"
@@ -81,7 +81,7 @@ export default {
           "dropdownItemsAfter": []
         },
         {
-          "href": "https://github.com/your-org/fulgo-docs",
+          "href": "https://github.com/losnah-think/fulgo-oms-fdd",
           "label": "GitHub",
           "position": "right"
         }

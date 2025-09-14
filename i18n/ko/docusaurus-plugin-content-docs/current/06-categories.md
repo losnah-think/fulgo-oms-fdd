@@ -1,6 +1,6 @@
 ---
 id: 06-categories
-title: Categories
+title: 상품분류(카테고리)
 ---
 
 ## 카테고리 — 관리

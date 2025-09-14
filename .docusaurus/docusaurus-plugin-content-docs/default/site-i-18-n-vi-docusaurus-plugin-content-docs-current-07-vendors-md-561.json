@@ -8,7 +8,7 @@
   "slug": "/07-vendors",
   "permalink": "/vi/07-vendors",
   "draft": false,
-  "editUrl": "https://github.com/your-org/fulgo-docs/edit/main/docusaurus/docs/07-vendors.md",
+  "editUrl": "https://github.com/losnah-think/fulgo-oms-fdd/edit/main/docs/07-vendors.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 7,
@@ -22,7 +22,7 @@
     "permalink": "/vi/06-categories"
   },
   "next": {
-    "title": "Settings Integrations",
+    "title": "Cài Đặt — Tích Hợp",
     "permalink": "/vi/08-settings-integrations"
   }
 }

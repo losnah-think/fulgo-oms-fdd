@@ -1,9 +1,9 @@
 ---
 id: 08-settings-integrations
-title: Settings Integrations
+title: 설정 - 외부 시스템 연결
 ---
 
-## 설정 — 통합(Integrations)
+## 설정 — 외부 시스템 연결
 
 ### 목적
 

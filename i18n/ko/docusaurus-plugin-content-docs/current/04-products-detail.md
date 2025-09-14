@@ -1,6 +1,6 @@
 ---
 id: 04-products-detail
-title: Product Detail
+title: 상품 상세
 ---
 
 ## 제품 — 상세

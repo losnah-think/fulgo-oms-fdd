@@ -2,11 +2,11 @@
   "unversionedId": "03-products-list",
   "id": "03-products-list",
   "title": "Products List",
-  "description": "제품 — 목록",
-  "source": "@site/i18n/ko/docusaurus-plugin-content-docs/current/03-products-list.md",
+  "description": "Purpose",
+  "source": "@site/i18n/en/docusaurus-plugin-content-docs/current/03-products-list.md",
   "sourceDirName": ".",
   "slug": "/03-products-list",
-  "permalink": "/03-products-list",
+  "permalink": "/en/03-products-list",
   "draft": false,
   "editUrl": "https://github.com/losnah-think/fulgo-oms-fdd/edit/main/docs/03-products-list.md",
   "tags": [],
@@ -19,10 +19,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Orders Detail",
-    "permalink": "/02-orders-detail"
+    "permalink": "/en/02-orders-detail"
   },
   "next": {
-    "title": "Product Detail",
-    "permalink": "/04-products-detail"
+    "title": "Products Detail",
+    "permalink": "/en/04-products-detail"
   }
 }

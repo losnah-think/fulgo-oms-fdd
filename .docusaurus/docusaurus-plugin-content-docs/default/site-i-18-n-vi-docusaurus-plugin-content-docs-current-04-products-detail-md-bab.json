@@ -8,7 +8,7 @@
   "slug": "/04-products-detail",
   "permalink": "/vi/04-products-detail",
   "draft": false,
-  "editUrl": "https://github.com/your-org/fulgo-docs/edit/main/docusaurus/docs/04-products-detail.md",
+  "editUrl": "https://github.com/losnah-think/fulgo-oms-fdd/edit/main/docs/04-products-detail.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 4,
@@ -18,7 +18,7 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Products List",
+    "title": "Danh Sách Sản Phẩm",
     "permalink": "/vi/03-products-list"
   },
   "next": {
