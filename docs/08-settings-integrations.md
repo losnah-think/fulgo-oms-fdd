@@ -49,3 +49,35 @@ title: 설정 - 외부 시스템 연결
 ### 비고 / 연동
 
 - Cafe24 어댑터 등 개별 어댑터 설정을 이 페이지에서 관리합니다.
+
+---
+
+### 쇼핑몰 연결 추가 (예시 UI 흐름)
+
+1. **새 연결 추가 버튼**: '연결 추가'를 클릭하여 연결 유형을 선택합니다. (예: Cafe24, GodoMall, 자체 쇼핑몰)
+2. **자격증명 입력**: API 키 / 시크릿 / OAuth 정보 입력 폼을 표시합니다.
+	- 필수: `client_id` / `client_secret` 또는 `api_key`
+	- 선택: 매장 식별자(`shop_no`), 설명(`displayName`)
+3. **권한 동의(OAuth)**: OAuth 흐름인 경우 권한 동의 창을 통해 토큰을 발급합니다.
+4. **연결 테스트**: '연결 테스트' 버튼으로 인증 및 기본 엔드포인트 응답을 확인합니다.
+5. **저장 및 동기화 스케줄 설정**: 저장 후 기본 동기화 간격(예: 5분/30분/일간)을 설정합니다.
+
+#### UI 필드 (권장)
+
+- `platform`: string (e.g. `cafe24`)
+- `shop_no`: string — 채널에서 사용하는 식별자
+- `displayName`: string — 사용자 식별용 레이블
+- `credentials`: object — `{ apiKey?, clientId?, clientSecret?, token? }`
+- `syncInterval`: string — cron-like or preset (e.g. `5m`, `30m`, `daily`)
+- `enabled`: boolean
+
+#### 권한/보안
+
+- 자격증명은 서버에서 암호화하여 저장합니다。
+- 연결 추가 및 자격증명 노출은 `integrations:manage` 권한으로 제한합니다。
+
+#### 운영 주의사항
+
+- 대량 데이터 동기화 시 API rate-limit을 고려하여 백오프/재시도 전략을 설정하세요。
+- 채널별 필드 불일치는 매핑 레이어에서 처리합니다。
+

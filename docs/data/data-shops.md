@@ -46,3 +46,40 @@ slug: /data/data-shops
   "settings": {"syncInventory": true}
 }
 ```
+
+---
+### API: 쇼핑몰(연결) 등록 예시
+
+POST `/api/integrations` — 새로운 통합(쇼핑몰 연결) 등록
+
+Request body example:
+
+```json
+{
+  "platform": "cafe24",
+  "shop_no": "SHOP1",
+  "displayName": "FULGO Cafe24",
+  "credentials": {
+    "apiKey": "sk_live_xxx",
+    "clientId": "cid_123",
+    "clientSecret": "secret_abc"
+  },
+  "syncInterval": "30m",
+  "enabled": true
+}
+```
+
+Response example (201):
+
+```json
+{
+  "id": "int-001",
+  "platform": "cafe24",
+  "shop_no": "SHOP1",
+  "status": "connected"
+}
+```
+
+Notes:
+- Server stores `credentials` encrypted and only exposes connection health and non-sensitive metadata via the public API.
+
