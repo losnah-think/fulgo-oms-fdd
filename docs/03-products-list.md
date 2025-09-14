@@ -1,6 +1,6 @@
 ---
 id: 03-products-list
-title: Products List
+title: 상품 목록
 ---
 
 ## 제품 — 목록

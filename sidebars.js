@@ -9,28 +9,48 @@ module.exports = {
     'index',
     {
       type: 'category',
-      label: 'orders',
+      label: L.orders || 'Orders',
       items: ['01-orders-list', '02-orders-detail'],
     },
     {
       type: 'category',
-      label: 'products',
+      label: L.products || 'Products',
       items: ['03-products-list', '04-products-detail'],
     },
     {
       type: 'category',
-      label: 'stores',
+      label: L.stores || 'Malls',
       items: ['05-malls'],
     },
     {
       type: 'category',
-      label: 'catalog',
+      label: L.catalog || 'Catalog',
       items: ['06-categories', '07-vendors'],
     },
     {
       type: 'category',
-      label: 'settings',
+      label: L.settings || 'Settings & Integrations',
       items: ['08-settings-integrations'],
+    },
+    {
+      type: 'category',
+      label: L.data || 'Data',
+      items: [
+        'data/data-brands',
+        'data/data-categories',
+        'data/data-classifications',
+        'data/data-customers',
+        'data/data-integrations',
+        'data/data-orders',
+        'data/data-cafe24-orders',
+        'data/data-product-filters',
+        'data/data-products',
+        'data/data-shops',
+        'data/data-status',
+        'data/data-stocks',
+        'data/data-suppliers',
+        'data/data-warehouses'
+      ]
     },
     'schema-reference'
   ],

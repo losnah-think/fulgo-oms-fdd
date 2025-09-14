@@ -1,9 +1,9 @@
 ---
 id: 08-settings-integrations
-title: Settings Integrations
+title: 설정 - 외부 시스템 연결
 ---
 
-## 설정 — 통합(Integrations)
+## 설정 — 외부 시스템 연결
 
 ### 목적
 
@@ -49,4 +49,3 @@ title: Settings Integrations
 ### 비고 / 연동
 
 - Cafe24 어댑터 등 개별 어댑터 설정을 이 페이지에서 관리합니다.
-

@@ -1,8 +1,7 @@
 ---
 id: 02-orders-detail
-title: Orders Detail
+title: 주문 상세
 ---
-
 
 ## 주문 — 상세
 
@@ -68,4 +67,3 @@ const order = await prisma.fulgoOrders.findUnique({
 ### 비고 / 연동
 
 - 목록 페이지와 연계, 외부 몰 주문 페이지 링크 제공 가능
-

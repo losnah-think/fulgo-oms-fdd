@@ -1,8 +1,7 @@
 ---
 id: 04-products-detail
-title: Product Detail
+title: 상품 상세
 ---
-
 
 ## 제품 — 상세
 
@@ -42,4 +41,3 @@ const product = await prisma.fulgoProducts.findUnique({
 
 - 제품 수정 시 변경 검증 및 이벤트 큐에 전송
 - 몰별 가격 변경 이력 저장
-

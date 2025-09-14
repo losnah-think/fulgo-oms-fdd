@@ -6,6 +6,7 @@
     "start": "docusaurus start",
     "build": "docusaurus build",
     "deploy": "npm run build",
+  "serve:rewrite": "node scripts/serve-with-locale-clean.js",
     "serve": "docusaurus serve",
     "test:sidebar": "node ./scripts/test-sidebar.js",
     "clear": "docusaurus clear"
@@ -13,7 +14,7 @@
   "dependencies": {
     "@docusaurus/core": "^2.2.0",
     "@docusaurus/preset-classic": "^2.2.0",
-    "@docusaurus/plugin-content-docs": "^2.2.0"
+  "@docusaurus/plugin-content-docs": "^2.2.0"
   }
   ,"devDependencies":{
     "playwright": "^1.40.0"

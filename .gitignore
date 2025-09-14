@@ -7,3 +7,8 @@ build/
 dist/
 npm-debug.log*
 yarn-error.log*
+
+# Local Docusaurus build artifacts and generated docs
+.docusaurus/
+docs/data/
+tmp-mockdata/

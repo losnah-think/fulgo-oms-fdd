@@ -1,6 +1,6 @@
 ---
 id: 06-categories
-title: Categories
+title: 상품분류(카테고리)
 ---
 
 ## 카테고리 — 관리
@@ -45,4 +45,3 @@ title: Categories
 ### 비고 / 연동
 
 - MallProductManager가 동기화 시 사용
-
