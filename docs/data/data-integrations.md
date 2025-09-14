@@ -1,7 +1,7 @@
 ---
-slug: /data/data-integrations
 id: data/data-integrations
 title: Data — Integrations
+slug: /data/data-integrations
 ---
 
-Coming soon.
+Placeholder for Data — Integrations.

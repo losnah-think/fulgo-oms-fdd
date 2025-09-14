@@ -1,7 +1,7 @@
 ---
-slug: /data/data-classifications
 id: data/data-classifications
 title: Data — Classifications
+slug: /data/data-classifications
 ---
 
-Coming soon.
+Placeholder for Data — Classifications.

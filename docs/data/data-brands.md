@@ -1,7 +1,7 @@
 ---
-slug: /data/data-brands
 id: data/data-brands
 title: Data — Brands
+slug: /data/data-brands
 ---
 
-Coming soon.
+Placeholder for Data — Brands.

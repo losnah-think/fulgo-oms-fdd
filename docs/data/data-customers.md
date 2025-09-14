@@ -1,7 +1,7 @@
 ---
-slug: /data/data-customers
 id: data/data-customers
 title: Data — Customers
+slug: /data/data-customers
 ---
 
-Coming soon.
+Placeholder for Data — Customers.

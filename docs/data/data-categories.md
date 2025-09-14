@@ -1,7 +1,7 @@
 ---
-slug: /data/data-categories
 id: data/data-categories
 title: Data — Categories
+slug: /data/data-categories
 ---
 
-Coming soon.
+Placeholder for Data — Categories.

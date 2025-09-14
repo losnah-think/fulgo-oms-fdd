@@ -1,7 +1,7 @@
 ---
-slug: /data/data-orders
 id: data/data-orders
 title: Data — Orders
+slug: /data/data-orders
 ---
 
-Coming soon.
+Placeholder for Data — Orders.
