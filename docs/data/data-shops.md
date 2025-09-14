@@ -1,5 +1,5 @@
 ---
-id: data/data-shops
+id: data-shops
 title: Data — Shops
 slug: /data/data-shops
 ---

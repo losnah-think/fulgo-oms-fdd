@@ -1,5 +1,5 @@
 ---
-id: data/data-warehouses
+id: data-warehouses
 title: Data — Warehouses
 slug: /data/data-warehouses
 ---

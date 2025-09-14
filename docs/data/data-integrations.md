@@ -1,5 +1,5 @@
 ---
-id: data/data-integrations
+id: data-integrations
 title: Data — Integrations
 slug: /data/data-integrations
 ---

@@ -1,5 +1,5 @@
 ---
-id: data/data-orders
+id: data-orders
 title: Data — Orders
 slug: /data/data-orders
 ---

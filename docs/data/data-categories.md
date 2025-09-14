@@ -1,5 +1,5 @@
 ---
-id: data/data-categories
+id: data-categories
 title: Data — Categories
 slug: /data/data-categories
 ---

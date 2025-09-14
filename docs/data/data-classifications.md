@@ -1,5 +1,5 @@
 ---
-id: data/data-classifications
+id: data-classifications
 title: Data — Classifications
 slug: /data/data-classifications
 ---

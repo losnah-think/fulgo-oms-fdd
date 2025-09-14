@@ -1,5 +1,5 @@
 ---
-id: data/data-suppliers
+id: data-suppliers
 title: Data — Suppliers
 slug: /data/data-suppliers
 ---

@@ -1,5 +1,5 @@
 ---
-id: data/data-product-filters
+id: data-product-filters
 title: Data — Product Filters
 slug: /data/data-product-filters
 ---

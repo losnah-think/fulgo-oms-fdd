@@ -1,5 +1,5 @@
 ---
-id: data/data-customers
+id: data-customers
 title: Data — Customers
 slug: /data/data-customers
 ---
