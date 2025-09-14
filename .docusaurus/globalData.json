@@ -1,0 +1,86 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/",
+          "mainDocId": "index",
+          "docs": [
+            {
+              "id": "01-orders-list",
+              "path": "/01-orders-list",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "02-orders-detail",
+              "path": "/02-orders-detail",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "03-products-list",
+              "path": "/03-products-list",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "04-products-detail",
+              "path": "/04-products-detail",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "05-malls",
+              "path": "/05-malls",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "06-categories",
+              "path": "/06-categories",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "07-vendors",
+              "path": "/07-vendors",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "08-settings-integrations",
+              "path": "/08-settings-integrations",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "design-system-colors",
+              "path": "/design-system-colors"
+            },
+            {
+              "id": "design-system-typography",
+              "path": "/design-system-typography"
+            },
+            {
+              "id": "index",
+              "path": "/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "schema-reference",
+              "path": "/schema-reference",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/",
+                "label": "index"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

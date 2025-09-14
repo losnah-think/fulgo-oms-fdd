@@ -1,0 +1,28 @@
+{
+  "unversionedId": "07-vendors",
+  "id": "07-vendors",
+  "title": "Vendors",
+  "description": "공급사(벤더) — 관리",
+  "source": "@site/i18n/ko/docusaurus-plugin-content-docs/current/07-vendors.md",
+  "sourceDirName": ".",
+  "slug": "/07-vendors",
+  "permalink": "/07-vendors",
+  "draft": false,
+  "editUrl": "https://github.com/your-org/fulgo-docs/edit/main/docusaurus/docs/07-vendors.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "id": "07-vendors",
+    "title": "Vendors"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Categories",
+    "permalink": "/06-categories"
+  },
+  "next": {
+    "title": "Settings Integrations",
+    "permalink": "/08-settings-integrations"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "unversionedId": "08-settings-integrations",
+  "id": "08-settings-integrations",
+  "title": "Settings Integrations",
+  "description": "설정 — 통합(Integrations)",
+  "source": "@site/docs/08-settings-integrations.md",
+  "sourceDirName": ".",
+  "slug": "/08-settings-integrations",
+  "permalink": "/08-settings-integrations",
+  "draft": false,
+  "editUrl": "https://github.com/your-org/fulgo-docs/edit/main/docusaurus/docs/08-settings-integrations.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 8,
+  "frontMatter": {
+    "id": "08-settings-integrations",
+    "title": "Settings Integrations"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Vendors",
+    "permalink": "/07-vendors"
+  },
+  "next": {
+    "title": "Schema Reference",
+    "permalink": "/schema-reference"
+  }
+}

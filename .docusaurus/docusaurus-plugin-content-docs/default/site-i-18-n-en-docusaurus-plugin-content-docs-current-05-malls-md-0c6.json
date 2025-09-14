@@ -1,0 +1,28 @@
+{
+  "unversionedId": "05-malls",
+  "id": "05-malls",
+  "title": "Malls",
+  "description": "Overview",
+  "source": "@site/i18n/en/docusaurus-plugin-content-docs/current/05-malls.md",
+  "sourceDirName": ".",
+  "slug": "/05-malls",
+  "permalink": "/en/05-malls",
+  "draft": false,
+  "editUrl": "https://github.com/your-org/fulgo-docs/edit/main/docusaurus/docs/05-malls.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "id": "05-malls",
+    "title": "Malls"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Products Detail",
+    "permalink": "/en/04-products-detail"
+  },
+  "next": {
+    "title": "Categories",
+    "permalink": "/en/06-categories"
+  }
+}

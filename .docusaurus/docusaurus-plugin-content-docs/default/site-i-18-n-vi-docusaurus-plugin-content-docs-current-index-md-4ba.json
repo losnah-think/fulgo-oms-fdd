@@ -1,0 +1,23 @@
+{
+  "unversionedId": "index",
+  "id": "index",
+  "title": "Tài Liệu Thiết Kế Chức Năng FULGO OMS",
+  "description": "Chào mừng đến với tài liệu thiết kế chức năng của Hệ thống Quản lý Đơn hàng (OMS) FULGO. Tài liệu này mô tả các khái niệm cốt lõi, luồng công việc và mô hình dữ liệu của OMS.",
+  "source": "@site/i18n/vi/docusaurus-plugin-content-docs/current/index.md",
+  "sourceDirName": ".",
+  "slug": "/",
+  "permalink": "/vi/",
+  "draft": false,
+  "editUrl": "https://github.com/your-org/fulgo-docs/edit/main/docusaurus/docs/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "index",
+    "title": "Tài Liệu Thiết Kế Chức Năng FULGO OMS"
+  },
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "Danh Sách Đơn Hàng",
+    "permalink": "/vi/01-orders-list"
+  }
+}

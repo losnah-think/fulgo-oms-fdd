@@ -1,0 +1,28 @@
+{
+  "unversionedId": "02-orders-detail",
+  "id": "02-orders-detail",
+  "title": "Orders Detail",
+  "description": "주문 — 상세",
+  "source": "@site/docs/02-orders-detail.md",
+  "sourceDirName": ".",
+  "slug": "/02-orders-detail",
+  "permalink": "/02-orders-detail",
+  "draft": false,
+  "editUrl": "https://github.com/your-org/fulgo-docs/edit/main/docusaurus/docs/02-orders-detail.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "id": "02-orders-detail",
+    "title": "Orders Detail"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Orders List",
+    "permalink": "/01-orders-list"
+  },
+  "next": {
+    "title": "Products List",
+    "permalink": "/03-products-list"
+  }
+}

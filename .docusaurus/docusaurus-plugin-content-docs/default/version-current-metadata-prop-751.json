@@ -1,0 +1,186 @@
+{
+  "pluginId": "default",
+  "version": "current",
+  "label": "Next",
+  "banner": null,
+  "badge": false,
+  "noIndex": false,
+  "className": "docs-version-current",
+  "isLast": true,
+  "docsSidebars": {
+    "tutorialSidebar": [
+      {
+        "type": "link",
+        "label": "Fulgo OMS Docs (KR)",
+        "href": "/",
+        "docId": "index"
+      },
+      {
+        "type": "category",
+        "label": "orders",
+        "items": [
+          {
+            "type": "link",
+            "label": "Orders List",
+            "href": "/01-orders-list",
+            "docId": "01-orders-list"
+          },
+          {
+            "type": "link",
+            "label": "Orders Detail",
+            "href": "/02-orders-detail",
+            "docId": "02-orders-detail"
+          }
+        ],
+        "collapsed": true,
+        "collapsible": true
+      },
+      {
+        "type": "category",
+        "label": "products",
+        "items": [
+          {
+            "type": "link",
+            "label": "Products List",
+            "href": "/03-products-list",
+            "docId": "03-products-list"
+          },
+          {
+            "type": "link",
+            "label": "Product Detail",
+            "href": "/04-products-detail",
+            "docId": "04-products-detail"
+          }
+        ],
+        "collapsed": true,
+        "collapsible": true
+      },
+      {
+        "type": "category",
+        "label": "stores",
+        "items": [
+          {
+            "type": "link",
+            "label": "Malls",
+            "href": "/05-malls",
+            "docId": "05-malls"
+          }
+        ],
+        "collapsed": true,
+        "collapsible": true
+      },
+      {
+        "type": "category",
+        "label": "catalog",
+        "items": [
+          {
+            "type": "link",
+            "label": "Categories",
+            "href": "/06-categories",
+            "docId": "06-categories"
+          },
+          {
+            "type": "link",
+            "label": "Vendors",
+            "href": "/07-vendors",
+            "docId": "07-vendors"
+          }
+        ],
+        "collapsed": true,
+        "collapsible": true
+      },
+      {
+        "type": "category",
+        "label": "settings",
+        "items": [
+          {
+            "type": "link",
+            "label": "Settings Integrations",
+            "href": "/08-settings-integrations",
+            "docId": "08-settings-integrations"
+          }
+        ],
+        "collapsed": true,
+        "collapsible": true
+      },
+      {
+        "type": "link",
+        "label": "스키마 레퍼런스",
+        "href": "/schema-reference",
+        "docId": "schema-reference"
+      }
+    ]
+  },
+  "docs": {
+    "01-orders-list": {
+      "id": "01-orders-list",
+      "title": "Orders List",
+      "description": "주문 — 목록",
+      "sidebar": "tutorialSidebar"
+    },
+    "02-orders-detail": {
+      "id": "02-orders-detail",
+      "title": "Orders Detail",
+      "description": "주문 — 상세",
+      "sidebar": "tutorialSidebar"
+    },
+    "03-products-list": {
+      "id": "03-products-list",
+      "title": "Products List",
+      "description": "제품 — 목록",
+      "sidebar": "tutorialSidebar"
+    },
+    "04-products-detail": {
+      "id": "04-products-detail",
+      "title": "Product Detail",
+      "description": "제품 — 상세",
+      "sidebar": "tutorialSidebar"
+    },
+    "05-malls": {
+      "id": "05-malls",
+      "title": "Malls",
+      "description": "몰(Malls) — 관리",
+      "sidebar": "tutorialSidebar"
+    },
+    "06-categories": {
+      "id": "06-categories",
+      "title": "Categories",
+      "description": "카테고리 — 관리",
+      "sidebar": "tutorialSidebar"
+    },
+    "07-vendors": {
+      "id": "07-vendors",
+      "title": "Vendors",
+      "description": "공급사(벤더) — 관리",
+      "sidebar": "tutorialSidebar"
+    },
+    "08-settings-integrations": {
+      "id": "08-settings-integrations",
+      "title": "Settings Integrations",
+      "description": "설정 — 통합(Integrations)",
+      "sidebar": "tutorialSidebar"
+    },
+    "design-system-colors": {
+      "id": "design-system-colors",
+      "title": "Design System — Color Values (HEX / RGB)",
+      "description": "이 문서는 요청에 따라 토큰명 / 역할 / 사용처 / 예시 / 금지 형태로 색상 토큰에 대한 실제 색상값(Hex / RGB)을 제공합니다. Pretendard Variable 사용과 함께 색상 토큰을 디자인에서 직접 사용하세요. (값은 예시이며 프로젝트 브랜딩에 맞춰 교체 가능합니다.)"
+    },
+    "design-system-typography": {
+      "id": "design-system-typography",
+      "title": "Design System — Typography Tokens",
+      "description": "이 문서는 디자인 시스템의 타이포그래피 토큰을 정리합니다. 각 토큰은 토큰명 / 역할 / 사용처 / 값(크기 / 굵기 / 행간) / 금지 형식으로 제공합니다."
+    },
+    "index": {
+      "id": "index",
+      "title": "Fulgo OMS Docs (KR)",
+      "description": "환영합니다. 이 섹션은 FULGO OMS의 주요 사용자 문서와 설계/운영 가이드를 포함합니다.",
+      "sidebar": "tutorialSidebar"
+    },
+    "schema-reference": {
+      "id": "schema-reference",
+      "title": "스키마 레퍼런스",
+      "description": "이 문서는 FULGO OMS에서 사용되는 주요 데이터베이스 테이블과 Prisma 모델을 요약합니다. 아래 예시는 프로젝트의 DDL/스키마에서 발췌한 설명적 예시입니다.",
+      "sidebar": "tutorialSidebar"
+    }
+  }
+}

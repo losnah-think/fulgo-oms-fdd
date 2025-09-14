@@ -1,0 +1,28 @@
+{
+  "unversionedId": "01-orders-list",
+  "id": "01-orders-list",
+  "title": "Orders List",
+  "description": "Overview",
+  "source": "@site/i18n/en/docusaurus-plugin-content-docs/current/01-orders-list.md",
+  "sourceDirName": ".",
+  "slug": "/01-orders-list",
+  "permalink": "/en/01-orders-list",
+  "draft": false,
+  "editUrl": "https://github.com/your-org/fulgo-docs/edit/main/docusaurus/docs/01-orders-list.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "id": "01-orders-list",
+    "title": "Orders List"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "FULGO OMS Functional Design Document",
+    "permalink": "/en/"
+  },
+  "next": {
+    "title": "Orders Detail",
+    "permalink": "/en/02-orders-detail"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "unversionedId": "schema-reference",
+  "id": "schema-reference",
+  "title": "스키마 레퍼런스",
+  "description": "이 문서는 FULGO OMS에서 사용되는 주요 데이터베이스 테이블과 Prisma 모델을 요약합니다. 아래 예시는 프로젝트의 DDL/스키마에서 발췌한 설명적 예시입니다.",
+  "source": "@site/i18n/ko/docusaurus-plugin-content-docs/current/99-schema-reference.md",
+  "sourceDirName": ".",
+  "slug": "/schema-reference",
+  "permalink": "/schema-reference",
+  "draft": false,
+  "editUrl": "https://github.com/your-org/fulgo-docs/edit/main/docusaurus/docs/99-schema-reference.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 99,
+  "frontMatter": {
+    "id": "schema-reference",
+    "title": "스키마 레퍼런스"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Settings Integrations",
+    "permalink": "/08-settings-integrations"
+  }
+}

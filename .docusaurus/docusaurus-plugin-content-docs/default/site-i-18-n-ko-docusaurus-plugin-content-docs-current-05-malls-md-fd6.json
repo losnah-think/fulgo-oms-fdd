@@ -1,0 +1,28 @@
+{
+  "unversionedId": "05-malls",
+  "id": "05-malls",
+  "title": "Malls",
+  "description": "몰(Malls) — 관리",
+  "source": "@site/i18n/ko/docusaurus-plugin-content-docs/current/05-malls.md",
+  "sourceDirName": ".",
+  "slug": "/05-malls",
+  "permalink": "/05-malls",
+  "draft": false,
+  "editUrl": "https://github.com/your-org/fulgo-docs/edit/main/docusaurus/docs/05-malls.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "id": "05-malls",
+    "title": "Malls"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Product Detail",
+    "permalink": "/04-products-detail"
+  },
+  "next": {
+    "title": "Categories",
+    "permalink": "/06-categories"
+  }
+}

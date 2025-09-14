@@ -1,0 +1,15 @@
+{
+  "unversionedId": "design-system-colors",
+  "id": "design-system-colors",
+  "title": "Design System — Color Values (HEX / RGB)",
+  "description": "이 문서는 요청에 따라 토큰명 / 역할 / 사용처 / 예시 / 금지 형태로 색상 토큰에 대한 실제 색상값(Hex / RGB)을 제공합니다. Pretendard Variable 사용과 함께 색상 토큰을 디자인에서 직접 사용하세요. (값은 예시이며 프로젝트 브랜딩에 맞춰 교체 가능합니다.)",
+  "source": "@site/docs/design-system-colors.md",
+  "sourceDirName": ".",
+  "slug": "/design-system-colors",
+  "permalink": "/design-system-colors",
+  "draft": false,
+  "editUrl": "https://github.com/your-org/fulgo-docs/edit/main/docusaurus/docs/design-system-colors.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

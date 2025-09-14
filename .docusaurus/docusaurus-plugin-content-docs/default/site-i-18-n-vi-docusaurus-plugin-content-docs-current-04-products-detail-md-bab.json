@@ -1,0 +1,28 @@
+{
+  "unversionedId": "04-products-detail",
+  "id": "04-products-detail",
+  "title": "Chi Tiết Sản Phẩm",
+  "description": "Tổng quan",
+  "source": "@site/i18n/vi/docusaurus-plugin-content-docs/current/04-products-detail.md",
+  "sourceDirName": ".",
+  "slug": "/04-products-detail",
+  "permalink": "/vi/04-products-detail",
+  "draft": false,
+  "editUrl": "https://github.com/your-org/fulgo-docs/edit/main/docusaurus/docs/04-products-detail.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "id": "04-products-detail",
+    "title": "Chi Tiết Sản Phẩm"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Products List",
+    "permalink": "/vi/03-products-list"
+  },
+  "next": {
+    "title": "Malls",
+    "permalink": "/vi/05-malls"
+  }
+}

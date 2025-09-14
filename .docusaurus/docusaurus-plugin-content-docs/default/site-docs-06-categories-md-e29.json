@@ -1,0 +1,28 @@
+{
+  "unversionedId": "06-categories",
+  "id": "06-categories",
+  "title": "Categories",
+  "description": "카테고리 — 관리",
+  "source": "@site/docs/06-categories.md",
+  "sourceDirName": ".",
+  "slug": "/06-categories",
+  "permalink": "/06-categories",
+  "draft": false,
+  "editUrl": "https://github.com/your-org/fulgo-docs/edit/main/docusaurus/docs/06-categories.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "id": "06-categories",
+    "title": "Categories"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Malls",
+    "permalink": "/05-malls"
+  },
+  "next": {
+    "title": "Vendors",
+    "permalink": "/07-vendors"
+  }
+}

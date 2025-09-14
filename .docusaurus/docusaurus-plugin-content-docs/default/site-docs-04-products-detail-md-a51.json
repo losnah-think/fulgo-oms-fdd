@@ -1,0 +1,28 @@
+{
+  "unversionedId": "04-products-detail",
+  "id": "04-products-detail",
+  "title": "Product Detail",
+  "description": "제품 — 상세",
+  "source": "@site/docs/04-products-detail.md",
+  "sourceDirName": ".",
+  "slug": "/04-products-detail",
+  "permalink": "/04-products-detail",
+  "draft": false,
+  "editUrl": "https://github.com/your-org/fulgo-docs/edit/main/docusaurus/docs/04-products-detail.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "id": "04-products-detail",
+    "title": "Product Detail"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Products List",
+    "permalink": "/03-products-list"
+  },
+  "next": {
+    "title": "Malls",
+    "permalink": "/05-malls"
+  }
+}

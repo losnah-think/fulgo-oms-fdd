@@ -1,0 +1,23 @@
+{
+  "unversionedId": "index",
+  "id": "index",
+  "title": "FULGO OMS Functional Design Document",
+  "description": "Welcome to the FULGO Order Management System (OMS) Functional Design Document. This guide describes core concepts, workflows, and data models used by the FULGO OMS.",
+  "source": "@site/i18n/en/docusaurus-plugin-content-docs/current/index.md",
+  "sourceDirName": ".",
+  "slug": "/",
+  "permalink": "/en/",
+  "draft": false,
+  "editUrl": "https://github.com/your-org/fulgo-docs/edit/main/docusaurus/docs/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "index",
+    "title": "FULGO OMS Functional Design Document"
+  },
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "Orders List",
+    "permalink": "/en/01-orders-list"
+  }
+}

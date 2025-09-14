@@ -1,0 +1,28 @@
+{
+  "unversionedId": "03-products-list",
+  "id": "03-products-list",
+  "title": "Products List",
+  "description": "제품 — 목록",
+  "source": "@site/i18n/ko/docusaurus-plugin-content-docs/current/03-products-list.md",
+  "sourceDirName": ".",
+  "slug": "/03-products-list",
+  "permalink": "/03-products-list",
+  "draft": false,
+  "editUrl": "https://github.com/your-org/fulgo-docs/edit/main/docusaurus/docs/03-products-list.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "id": "03-products-list",
+    "title": "Products List"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Orders Detail",
+    "permalink": "/02-orders-detail"
+  },
+  "next": {
+    "title": "Product Detail",
+    "permalink": "/04-products-detail"
+  }
+}

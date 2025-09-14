@@ -1,0 +1,23 @@
+{
+  "unversionedId": "index",
+  "id": "index",
+  "title": "FULGO OMS FDD",
+  "description": "Welcome to the FULGO OMS Functional Design Document (FDD).",
+  "source": "@site/docs/index.md",
+  "sourceDirName": ".",
+  "slug": "/",
+  "permalink": "/",
+  "draft": false,
+  "editUrl": "https://github.com/your-org/fulgo-docs/edit/main/docusaurus/docs/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "index",
+    "title": "FULGO OMS FDD"
+  },
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "Orders List",
+    "permalink": "/01-orders-list"
+  }
+}

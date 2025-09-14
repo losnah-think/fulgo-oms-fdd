@@ -1,0 +1,12 @@
+
+> fulgo-docs-docusaurus@0.0.0 start
+> docusaurus start
+
+
+╭──────────────────────────────────────────────────────────────────────────────╮│                                                                              ││                        Update available 2.4.3 → 3.8.1                        ││                                                                              ││       To upgrade Docusaurus packages with the latest version, run the        ││                             following command:                               ││       `npm i @docusaurus/core@latest @docusaurus/preset-classic@latest       ││                   @docusaurus/plugin-content-docs@latest`                    ││                                                                              │╰──────────────────────────────────────────────────────────────────────────────╯
+
+[INFO] Starting the development server...
+[SUCCESS] Docusaurus website is running at: http://localhost:3000/
+ℹ Compiling Client
+✔ Client: Compiled successfully in 499.58ms
+client (webpack 5.101.3) compiled successfully

@@ -1,0 +1,1159 @@
+
+> fulgo-docs-docusaurus@0.0.0 start
+> docusaurus start --host 127.0.0.1 --port 3000
+
+
+╭──────────────────────────────────────────────────────────────────────────────╮│                                                                              ││                        Update available 2.4.3 → 3.8.1                        ││                                                                              ││       To upgrade Docusaurus packages with the latest version, run the        ││                             following command:                               ││       `npm i @docusaurus/core@latest @docusaurus/preset-classic@latest       ││                   @docusaurus/plugin-content-docs@latest`                    ││                                                                              │╰──────────────────────────────────────────────────────────────────────────────╯
+
+[INFO] Starting the development server...
+[SUCCESS] Docusaurus website is running at: http://127.0.0.1:3000/
+ℹ Compiling Client
+✔ Client: Compiled with some errors in 1.02s
+
+
+SyntaxError: /Users/sotatekthor/Desktop/FULGO_OMS/fulgo-docs/docusaurus/docs/01-orders-list.md: Unterminated JSX contents. (119:16)
+  117 | </div>
+  118 | </div>
+> 119 |     </MDXLayout>
+      |                 ^
+  120 |   )
+  121 | };
+  122 | MDXContent.isMDXComponent = true
+SyntaxError: /Users/sotatekthor/Desktop/FULGO_OMS/fulgo-docs/docusaurus/docs/02-orders-detail.md: Unterminated JSX contents. (125:16)
+  123 | </div>
+  124 | </div>
+> 125 |     </MDXLayout>
+      |                 ^
+  126 |   )
+  127 | };
+  128 | MDXContent.isMDXComponent = true
+SyntaxError: /Users/sotatekthor/Desktop/FULGO_OMS/fulgo-docs/docusaurus/docs/03-products-list.md: Expected corresponding JSX closing tag for <div>. (68:50)
+  66 | <p>{`일괄 작업 완료 목표: 1,000개 기준 90초 미만`}</p>
+  67 | </div>
+> 68 | <h2 {...{"id":"div-classitem"}}><div class="item"></h2>
+     |                                                   ^
+  69 | <p>{`id: 03-products-list`}</p>
+  70 | <h2 {...{"id":"title-products-list"}}>{`title: Products List`}</h2>
+  71 | <div class="content">
+SyntaxError: /Users/sotatekthor/Desktop/FULGO_OMS/fulgo-docs/docusaurus/docs/04-products-detail.md: Expected corresponding JSX closing tag for <MDXLayout>. (77:0)
+  75 | 제품 정보 업데이트 소요 목표: 3분 미만
+  76 | </div>
+> 77 | </div>
+     | ^
+  78 | </div>
+  79 | <div class="section">
+  80 | <p><strong parentName="p">{`오류 조건 및 UX`}</strong></p>
+SyntaxError: /Users/sotatekthor/Desktop/FULGO_OMS/fulgo-docs/docusaurus/docs/06-categories.md: Expected corresponding JSX closing tag for <div>. (13:50)
+  11 | </div>
+  12 | <h2 {...{"id":"카테고리--관리"}}>{`카테고리 — 관리`}</h2>
+> 13 | <h2 {...{"id":"div-classmeta"}}><div class="meta"></h2>
+     |                                                   ^
+  14 | <p>{`id: 06-categories`}</p>
+  15 | <h2 {...{"id":"title-categories"}}>{`title: Categories`}</h2>
+  16 | <div class="content">
+client (webpack 5.101.3) compiled with 5 errors
+ℹ Compiling Client
+✔ Client: Compiled with some errors in 80.93ms
+
+
+SyntaxError: /Users/sotatekthor/Desktop/FULGO_OMS/fulgo-docs/docusaurus/docs/01-orders-list.md: Unterminated JSX contents. (73:16)
+  71 | </div>
+  72 | 주문 기본, 배송, 합계, 태그/메모
+> 73 |     </MDXLayout>
+     |                 ^
+  74 |   )
+  75 | };
+  76 | MDXContent.isMDXComponent = true
+SyntaxError: /Users/sotatekthor/Desktop/FULGO_OMS/fulgo-docs/docusaurus/docs/02-orders-detail.md: Unterminated JSX contents. (125:16)
+  123 | </div>
+  124 | </div>
+> 125 |     </MDXLayout>
+      |                 ^
+  126 |   )
+  127 | };
+  128 | MDXContent.isMDXComponent = true
+SyntaxError: /Users/sotatekthor/Desktop/FULGO_OMS/fulgo-docs/docusaurus/docs/03-products-list.md: Expected corresponding JSX closing tag for <div>. (68:50)
+  66 | <p>{`일괄 작업 완료 목표: 1,000개 기준 90초 미만`}</p>
+  67 | </div>
+> 68 | <h2 {...{"id":"div-classitem"}}><div class="item"></h2>
+     |                                                   ^
+  69 | <p>{`id: 03-products-list`}</p>
+  70 | <h2 {...{"id":"title-products-list"}}>{`title: Products List`}</h2>
+  71 | <div class="content">
+SyntaxError: /Users/sotatekthor/Desktop/FULGO_OMS/fulgo-docs/docusaurus/docs/04-products-detail.md: Expected corresponding JSX closing tag for <MDXLayout>. (77:0)
+  75 | 제품 정보 업데이트 소요 목표: 3분 미만
+  76 | </div>
+> 77 | </div>
+     | ^
+  78 | </div>
+  79 | <div class="section">
+  80 | <p><strong parentName="p">{`오류 조건 및 UX`}</strong></p>
+SyntaxError: /Users/sotatekthor/Desktop/FULGO_OMS/fulgo-docs/docusaurus/docs/06-categories.md: Expected corresponding JSX closing tag for <div>. (13:50)
+  11 | </div>
+  12 | <h2 {...{"id":"카테고리--관리"}}>{`카테고리 — 관리`}</h2>
+> 13 | <h2 {...{"id":"div-classmeta"}}><div class="meta"></h2>
+     |                                                   ^
+  14 | <p>{`id: 06-categories`}</p>
+  15 | <h2 {...{"id":"title-categories"}}>{`title: Categories`}</h2>
+  16 | <div class="content">
+client (webpack 5.101.3) compiled with 5 errors
+ℹ Compiling Client
+✔ Client: Compiled with some errors in 67.70ms
+
+
+SyntaxError: /Users/sotatekthor/Desktop/FULGO_OMS/fulgo-docs/docusaurus/docs/01-orders-list.md: Unterminated JSX contents. (73:16)
+  71 | </div>
+  72 | 주문 기본, 배송, 합계, 태그/메모
+> 73 |     </MDXLayout>
+     |                 ^
+  74 |   )
+  75 | };
+  76 | MDXContent.isMDXComponent = true
+SyntaxError: /Users/sotatekthor/Desktop/FULGO_OMS/fulgo-docs/docusaurus/docs/02-orders-detail.md: Unterminated JSX contents. (70:16)
+  68 | `}</code></pre>
+  69 | </div>
+> 70 |     </MDXLayout>
+     |                 ^
+  71 |   )
+  72 | };
+  73 | MDXContent.isMDXComponent = true
+SyntaxError: /Users/sotatekthor/Desktop/FULGO_OMS/fulgo-docs/docusaurus/docs/03-products-list.md: Expected corresponding JSX closing tag for <div>. (68:50)
+  66 | <p>{`일괄 작업 완료 목표: 1,000개 기준 90초 미만`}</p>
+  67 | </div>
+> 68 | <h2 {...{"id":"div-classitem"}}><div class="item"></h2>
+     |                                                   ^
+  69 | <p>{`id: 03-products-list`}</p>
+  70 | <h2 {...{"id":"title-products-list"}}>{`title: Products List`}</h2>
+  71 | <div class="content">
+SyntaxError: /Users/sotatekthor/Desktop/FULGO_OMS/fulgo-docs/docusaurus/docs/04-products-detail.md: Expected corresponding JSX closing tag for <MDXLayout>. (77:0)
+  75 | 제품 정보 업데이트 소요 목표: 3분 미만
+  76 | </div>
+> 77 | </div>
+     | ^
+  78 | </div>
+  79 | <div class="section">
+  80 | <p><strong parentName="p">{`오류 조건 및 UX`}</strong></p>
+SyntaxError: /Users/sotatekthor/Desktop/FULGO_OMS/fulgo-docs/docusaurus/docs/06-categories.md: Expected corresponding JSX closing tag for <div>. (13:50)
+  11 | </div>
+  12 | <h2 {...{"id":"카테고리--관리"}}>{`카테고리 — 관리`}</h2>
+> 13 | <h2 {...{"id":"div-classmeta"}}><div class="meta"></h2>
+     |                                                   ^
+  14 | <p>{`id: 06-categories`}</p>
+  15 | <h2 {...{"id":"title-categories"}}>{`title: Categories`}</h2>
+  16 | <div class="content">
+client (webpack 5.101.3) compiled with 5 errors
+ℹ Compiling Client
+✔ Client: Compiled with some errors in 93.81ms
+
+
+SyntaxError: /Users/sotatekthor/Desktop/FULGO_OMS/fulgo-docs/docusaurus/docs/01-orders-list.md: Unterminated JSX contents. (73:16)
+  71 | </div>
+  72 | 주문 기본, 배송, 합계, 태그/메모
+> 73 |     </MDXLayout>
+     |                 ^
+  74 |   )
+  75 | };
+  76 | MDXContent.isMDXComponent = true
+SyntaxError: /Users/sotatekthor/Desktop/FULGO_OMS/fulgo-docs/docusaurus/docs/02-orders-detail.md: Unterminated JSX contents. (70:16)
+  68 | `}</code></pre>
+  69 | </div>
+> 70 |     </MDXLayout>
+     |                 ^
+  71 |   )
+  72 | };
+  73 | MDXContent.isMDXComponent = true
+SyntaxError: /Users/sotatekthor/Desktop/FULGO_OMS/fulgo-docs/docusaurus/docs/04-products-detail.md: Expected corresponding JSX closing tag for <MDXLayout>. (77:0)
+  75 | 제품 정보 업데이트 소요 목표: 3분 미만
+  76 | </div>
+> 77 | </div>
+     | ^
+  78 | </div>
+  79 | <div class="section">
+  80 | <p><strong parentName="p">{`오류 조건 및 UX`}</strong></p>
+SyntaxError: /Users/sotatekthor/Desktop/FULGO_OMS/fulgo-docs/docusaurus/docs/06-categories.md: Expected corresponding JSX closing tag for <div>. (13:50)
+  11 | </div>
+  12 | <h2 {...{"id":"카테고리--관리"}}>{`카테고리 — 관리`}</h2>
+> 13 | <h2 {...{"id":"div-classmeta"}}><div class="meta"></h2>
+     |                                                   ^
+  14 | <p>{`id: 06-categories`}</p>
+  15 | <h2 {...{"id":"title-categories"}}>{`title: Categories`}</h2>
+  16 | <div class="content">
+client (webpack 5.101.3) compiled with 4 errors
+ℹ Compiling Client
+✔ Client: Compiled with some errors in 60.84ms
+
+
+SyntaxError: /Users/sotatekthor/Desktop/FULGO_OMS/fulgo-docs/docusaurus/docs/01-orders-list.md: Unterminated JSX contents. (73:16)
+  71 | </div>
+  72 | 주문 기본, 배송, 합계, 태그/메모
+> 73 |     </MDXLayout>
+     |                 ^
+  74 |   )
+  75 | };
+  76 | MDXContent.isMDXComponent = true
+SyntaxError: /Users/sotatekthor/Desktop/FULGO_OMS/fulgo-docs/docusaurus/docs/02-orders-detail.md: Unterminated JSX contents. (70:16)
+  68 | `}</code></pre>
+  69 | </div>
+> 70 |     </MDXLayout>
+     |                 ^
+  71 |   )
+  72 | };
+  73 | MDXContent.isMDXComponent = true
+SyntaxError: /Users/sotatekthor/Desktop/FULGO_OMS/fulgo-docs/docusaurus/docs/04-products-detail.md: Unterminated JSX contents. (97:16)
+   95 | </div>
+   96 | <p>{`\``}{`\``}{`\``}</p>
+>  97 |     </MDXLayout>
+      |                 ^
+   98 |   )
+   99 | };
+  100 | MDXContent.isMDXComponent = true
+SyntaxError: /Users/sotatekthor/Desktop/FULGO_OMS/fulgo-docs/docusaurus/docs/06-categories.md: Expected corresponding JSX closing tag for <div>. (13:50)
+  11 | </div>
+  12 | <h2 {...{"id":"카테고리--관리"}}>{`카테고리 — 관리`}</h2>
+> 13 | <h2 {...{"id":"div-classmeta"}}><div class="meta"></h2>
+     |                                                   ^
+  14 | <p>{`id: 06-categories`}</p>
+  15 | <h2 {...{"id":"title-categories"}}>{`title: Categories`}</h2>
+  16 | <div class="content">
+client (webpack 5.101.3) compiled with 4 errors
+ℹ Compiling Client
+✔ Client: Compiled with some errors in 59.23ms
+
+
+SyntaxError: /Users/sotatekthor/Desktop/FULGO_OMS/fulgo-docs/docusaurus/docs/01-orders-list.md: Unterminated JSX contents. (73:16)
+  71 | </div>
+  72 | 주문 기본, 배송, 합계, 태그/메모
+> 73 |     </MDXLayout>
+     |                 ^
+  74 |   )
+  75 | };
+  76 | MDXContent.isMDXComponent = true
+SyntaxError: /Users/sotatekthor/Desktop/FULGO_OMS/fulgo-docs/docusaurus/docs/02-orders-detail.md: Unterminated JSX contents. (70:16)
+  68 | `}</code></pre>
+  69 | </div>
+> 70 |     </MDXLayout>
+     |                 ^
+  71 |   )
+  72 | };
+  73 | MDXContent.isMDXComponent = true
+SyntaxError: /Users/sotatekthor/Desktop/FULGO_OMS/fulgo-docs/docusaurus/docs/04-products-detail.md: Unterminated JSX contents. (97:16)
+   95 | </div>
+   96 | <p>{`\``}{`\``}{`\``}</p>
+>  97 |     </MDXLayout>
+      |                 ^
+   98 |   )
+   99 | };
+  100 | MDXContent.isMDXComponent = true
+client (webpack 5.101.3) compiled with 3 errors
+ℹ Compiling Client
+✔ Client: Compiled with some errors in 69.40ms
+
+
+SyntaxError: /Users/sotatekthor/Desktop/FULGO_OMS/fulgo-docs/docusaurus/docs/02-orders-detail.md: Unterminated JSX contents. (70:16)
+  68 | `}</code></pre>
+  69 | </div>
+> 70 |     </MDXLayout>
+     |                 ^
+  71 |   )
+  72 | };
+  73 | MDXContent.isMDXComponent = true
+SyntaxError: /Users/sotatekthor/Desktop/FULGO_OMS/fulgo-docs/docusaurus/docs/04-products-detail.md: Unterminated JSX contents. (97:16)
+   95 | </div>
+   96 | <p>{`\``}{`\``}{`\``}</p>
+>  97 |     </MDXLayout>
+      |                 ^
+   98 |   )
+   99 | };
+  100 | MDXContent.isMDXComponent = true
+client (webpack 5.101.3) compiled with 2 errors
+ℹ Compiling Client
+✔ Client: Compiled with some errors in 80.41ms
+
+
+SyntaxError: /Users/sotatekthor/Desktop/FULGO_OMS/fulgo-docs/docusaurus/docs/04-products-detail.md: Unterminated JSX contents. (97:16)
+   95 | </div>
+   96 | <p>{`\``}{`\``}{`\``}</p>
+>  97 |     </MDXLayout>
+      |                 ^
+   98 |   )
+   99 | };
+  100 | MDXContent.isMDXComponent = true
+client (webpack 5.101.3) compiled with 1 error
+ℹ Compiling Client
+✔ Client: Compiled with some errors in 55.25ms
+
+
+SyntaxError: /Users/sotatekthor/Desktop/FULGO_OMS/fulgo-docs/docusaurus/docs/04-products-detail.md: Unterminated JSX contents. (97:16)
+   95 | </div>
+   96 | <p>{`\``}{`\``}{`\``}</p>
+>  97 |     </MDXLayout>
+      |                 ^
+   98 |   )
+   99 | };
+  100 | MDXContent.isMDXComponent = true
+client (webpack 5.101.3) compiled with 1 error
+ℹ Compiling Client
+✔ Client: Compiled successfully in 41.30ms
+client (webpack 5.101.3) compiled successfully
+ℹ Compiling Client
+✔ Client: Compiled successfully in 92.23ms
+client (webpack 5.101.3) compiled successfully
+ℹ Compiling Client
+✔ Client: Compiled successfully in 71.01ms
+client (webpack 5.101.3) compiled successfully
+ℹ Compiling Client
+✔ Client: Compiled successfully in 52.07ms
+client (webpack 5.101.3) compiled successfully
+ℹ Compiling Client
+✔ Client: Compiled successfully in 262.61ms
+client (webpack 5.101.3) compiled successfully
+ℹ Compiling Client
+✔ Client: Compiled successfully in 158.21ms
+client (webpack 5.101.3) compiled successfully
+ℹ Compiling Client
+✔ Client: Compiled successfully in 168.11ms
+client (webpack 5.101.3) compiled successfully
+ℹ Compiling Client
+✔ Client: Compiled successfully in 151.78ms
+client (webpack 5.101.3) compiled successfully
+ℹ Compiling Client
+✔ Client: Compiled successfully in 87.33ms
+client (webpack 5.101.3) compiled successfully
+ℹ Compiling Client
+✔ Client: Compiled with some errors in 98.97ms
+
+
+SyntaxError: /Users/sotatekthor/Desktop/FULGO_OMS/fulgo-docs/docusaurus/docs/01-orders-list.md: Unterminated JSX contents. (76:16)
+  74 | <li parentName="ul">{`Cafe24 어댑터 등과 연동`}</li>
+  75 | </ul>
+> 76 |     </MDXLayout>
+     |                 ^
+  77 |   )
+  78 | };
+  79 | MDXContent.isMDXComponent = true
+client (webpack 5.101.3) compiled with 1 error
+ℹ Compiling Client
+✔ Client: Compiled with some errors in 90.46ms
+
+
+SyntaxError: /Users/sotatekthor/Desktop/FULGO_OMS/fulgo-docs/docusaurus/docs/01-orders-list.md: Unterminated JSX contents. (76:16)
+  74 | <li parentName="ul">{`Cafe24 어댑터 등과 연동`}</li>
+  75 | </ul>
+> 76 |     </MDXLayout>
+     |                 ^
+  77 |   )
+  78 | };
+  79 | MDXContent.isMDXComponent = true
+SyntaxError: /Users/sotatekthor/Desktop/FULGO_OMS/fulgo-docs/docusaurus/docs/02-orders-detail.md: Unterminated JSX contents. (90:16)
+  88 | <li parentName="ul">{`목록 페이지와 연계, 외부 몰 주문 페이지 링크 제공 가능`}</li>
+  89 | </ul>
+> 90 |     </MDXLayout>
+     |                 ^
+  91 |   )
+  92 | };
+  93 | MDXContent.isMDXComponent = true
+client (webpack 5.101.3) compiled with 2 errors
+ℹ Compiling Client
+✔ Client: Compiled with some errors in 80.44ms
+
+
+SyntaxError: /Users/sotatekthor/Desktop/FULGO_OMS/fulgo-docs/docusaurus/docs/01-orders-list.md: Unterminated JSX contents. (76:16)
+  74 | <li parentName="ul">{`Cafe24 어댑터 등과 연동`}</li>
+  75 | </ul>
+> 76 |     </MDXLayout>
+     |                 ^
+  77 |   )
+  78 | };
+  79 | MDXContent.isMDXComponent = true
+SyntaxError: /Users/sotatekthor/Desktop/FULGO_OMS/fulgo-docs/docusaurus/docs/02-orders-detail.md: Unterminated JSX contents. (90:16)
+  88 | <li parentName="ul">{`목록 페이지와 연계, 외부 몰 주문 페이지 링크 제공 가능`}</li>
+  89 | </ul>
+> 90 |     </MDXLayout>
+     |                 ^
+  91 |   )
+  92 | };
+  93 | MDXContent.isMDXComponent = true
+SyntaxError: /Users/sotatekthor/Desktop/FULGO_OMS/fulgo-docs/docusaurus/docs/03-products-list.md: Unterminated JSX contents. (89:16)
+  87 | <li parentName="ul"><inlineCode parentName="li">{`ProductService`}</inlineCode>{`와 몰 매핑 컴포넌트 연동`}</li>
+  88 | </ul>
+> 89 |     </MDXLayout>
+     |                 ^
+  90 |   )
+  91 | };
+  92 | MDXContent.isMDXComponent = true
+client (webpack 5.101.3) compiled with 3 errors
+ℹ Compiling Client
+✔ Client: Compiled with some errors in 127.35ms
+
+
+SyntaxError: /Users/sotatekthor/Desktop/FULGO_OMS/fulgo-docs/docusaurus/docs/01-orders-list.md: Unterminated JSX contents. (76:16)
+  74 | <li parentName="ul">{`Cafe24 어댑터 등과 연동`}</li>
+  75 | </ul>
+> 76 |     </MDXLayout>
+     |                 ^
+  77 |   )
+  78 | };
+  79 | MDXContent.isMDXComponent = true
+SyntaxError: /Users/sotatekthor/Desktop/FULGO_OMS/fulgo-docs/docusaurus/docs/02-orders-detail.md: Unterminated JSX contents. (90:16)
+  88 | <li parentName="ul">{`목록 페이지와 연계, 외부 몰 주문 페이지 링크 제공 가능`}</li>
+  89 | </ul>
+> 90 |     </MDXLayout>
+     |                 ^
+  91 |   )
+  92 | };
+  93 | MDXContent.isMDXComponent = true
+SyntaxError: /Users/sotatekthor/Desktop/FULGO_OMS/fulgo-docs/docusaurus/docs/03-products-list.md: Unterminated JSX contents. (89:16)
+  87 | <li parentName="ul"><inlineCode parentName="li">{`ProductService`}</inlineCode>{`와 몰 매핑 컴포넌트 연동`}</li>
+  88 | </ul>
+> 89 |     </MDXLayout>
+     |                 ^
+  90 |   )
+  91 | };
+  92 | MDXContent.isMDXComponent = true
+client (webpack 5.101.3) compiled with 3 errors
+ℹ Compiling Client
+✔ Client: Compiled with some errors in 72.77ms
+
+
+SyntaxError: /Users/sotatekthor/Desktop/FULGO_OMS/fulgo-docs/docusaurus/docs/01-orders-list.md: Unterminated JSX contents. (76:16)
+  74 | <li parentName="ul">{`Cafe24 어댑터 등과 연동`}</li>
+  75 | </ul>
+> 76 |     </MDXLayout>
+     |                 ^
+  77 |   )
+  78 | };
+  79 | MDXContent.isMDXComponent = true
+SyntaxError: /Users/sotatekthor/Desktop/FULGO_OMS/fulgo-docs/docusaurus/docs/02-orders-detail.md: Unterminated JSX contents. (90:16)
+  88 | <li parentName="ul">{`목록 페이지와 연계, 외부 몰 주문 페이지 링크 제공 가능`}</li>
+  89 | </ul>
+> 90 |     </MDXLayout>
+     |                 ^
+  91 |   )
+  92 | };
+  93 | MDXContent.isMDXComponent = true
+SyntaxError: /Users/sotatekthor/Desktop/FULGO_OMS/fulgo-docs/docusaurus/docs/03-products-list.md: Unterminated JSX contents. (89:16)
+  87 | <li parentName="ul"><inlineCode parentName="li">{`ProductService`}</inlineCode>{`와 몰 매핑 컴포넌트 연동`}</li>
+  88 | </ul>
+> 89 |     </MDXLayout>
+     |                 ^
+  90 |   )
+  91 | };
+  92 | MDXContent.isMDXComponent = true
+SyntaxError: /Users/sotatekthor/Desktop/FULGO_OMS/fulgo-docs/docusaurus/docs/05-malls.md: Unterminated JSX contents. (63:16)
+  61 | <li parentName="ul">{`Cafe24 등 어댑터를 백그라운드 작업으로 실행`}</li>
+  62 | </ul>
+> 63 |     </MDXLayout>
+     |                 ^
+  64 |   )
+  65 | };
+  66 | MDXContent.isMDXComponent = true
+client (webpack 5.101.3) compiled with 4 errors
+ℹ Compiling Client
+✔ Client: Compiled with some errors in 113.77ms
+
+
+SyntaxError: /Users/sotatekthor/Desktop/FULGO_OMS/fulgo-docs/docusaurus/docs/01-orders-list.md: Unterminated JSX contents. (76:16)
+  74 | <li parentName="ul">{`Cafe24 어댑터 등과 연동`}</li>
+  75 | </ul>
+> 76 |     </MDXLayout>
+     |                 ^
+  77 |   )
+  78 | };
+  79 | MDXContent.isMDXComponent = true
+SyntaxError: /Users/sotatekthor/Desktop/FULGO_OMS/fulgo-docs/docusaurus/docs/02-orders-detail.md: Unterminated JSX contents. (90:16)
+  88 | <li parentName="ul">{`목록 페이지와 연계, 외부 몰 주문 페이지 링크 제공 가능`}</li>
+  89 | </ul>
+> 90 |     </MDXLayout>
+     |                 ^
+  91 |   )
+  92 | };
+  93 | MDXContent.isMDXComponent = true
+SyntaxError: /Users/sotatekthor/Desktop/FULGO_OMS/fulgo-docs/docusaurus/docs/03-products-list.md: Unterminated JSX contents. (89:16)
+  87 | <li parentName="ul"><inlineCode parentName="li">{`ProductService`}</inlineCode>{`와 몰 매핑 컴포넌트 연동`}</li>
+  88 | </ul>
+> 89 |     </MDXLayout>
+     |                 ^
+  90 |   )
+  91 | };
+  92 | MDXContent.isMDXComponent = true
+SyntaxError: /Users/sotatekthor/Desktop/FULGO_OMS/fulgo-docs/docusaurus/docs/05-malls.md: Unterminated JSX contents. (63:16)
+  61 | <li parentName="ul">{`Cafe24 등 어댑터를 백그라운드 작업으로 실행`}</li>
+  62 | </ul>
+> 63 |     </MDXLayout>
+     |                 ^
+  64 |   )
+  65 | };
+  66 | MDXContent.isMDXComponent = true
+SyntaxError: /Users/sotatekthor/Desktop/FULGO_OMS/fulgo-docs/docusaurus/docs/06-categories.md: Expected corresponding JSX closing tag for <MDXLayout>. (68:0)
+  66 | <div class="list">MallProductManager가 동기화 시 사용</div>
+  67 | </div>
+> 68 | </div>
+     | ^
+  69 | <div class="card-visual"></div>
+  70 | <h2 {...{"id":"카테고리--관리-1"}}>{`카테고리 — 관리`}</h2>
+  71 | <div class="meta">목적: 내부 카테고리 정의 및 몰 카테고리 매핑</div>
+client (webpack 5.101.3) compiled with 5 errors
+ℹ Compiling Client
+✔ Client: Compiled with some errors in 103.95ms
+
+
+SyntaxError: /Users/sotatekthor/Desktop/FULGO_OMS/fulgo-docs/docusaurus/docs/01-orders-list.md: Unterminated JSX contents. (76:16)
+  74 | <li parentName="ul">{`Cafe24 어댑터 등과 연동`}</li>
+  75 | </ul>
+> 76 |     </MDXLayout>
+     |                 ^
+  77 |   )
+  78 | };
+  79 | MDXContent.isMDXComponent = true
+SyntaxError: /Users/sotatekthor/Desktop/FULGO_OMS/fulgo-docs/docusaurus/docs/02-orders-detail.md: Unterminated JSX contents. (90:16)
+  88 | <li parentName="ul">{`목록 페이지와 연계, 외부 몰 주문 페이지 링크 제공 가능`}</li>
+  89 | </ul>
+> 90 |     </MDXLayout>
+     |                 ^
+  91 |   )
+  92 | };
+  93 | MDXContent.isMDXComponent = true
+SyntaxError: /Users/sotatekthor/Desktop/FULGO_OMS/fulgo-docs/docusaurus/docs/03-products-list.md: Unterminated JSX contents. (89:16)
+  87 | <li parentName="ul"><inlineCode parentName="li">{`ProductService`}</inlineCode>{`와 몰 매핑 컴포넌트 연동`}</li>
+  88 | </ul>
+> 89 |     </MDXLayout>
+     |                 ^
+  90 |   )
+  91 | };
+  92 | MDXContent.isMDXComponent = true
+SyntaxError: /Users/sotatekthor/Desktop/FULGO_OMS/fulgo-docs/docusaurus/docs/05-malls.md: Unterminated JSX contents. (63:16)
+  61 | <li parentName="ul">{`Cafe24 등 어댑터를 백그라운드 작업으로 실행`}</li>
+  62 | </ul>
+> 63 |     </MDXLayout>
+     |                 ^
+  64 |   )
+  65 | };
+  66 | MDXContent.isMDXComponent = true
+client (webpack 5.101.3) compiled with 4 errors
+ℹ Compiling Client
+✔ Client: Compiled with some errors in 112.14ms
+
+
+SyntaxError: /Users/sotatekthor/Desktop/FULGO_OMS/fulgo-docs/docusaurus/docs/01-orders-list.md: Unterminated JSX contents. (76:16)
+  74 | <li parentName="ul">{`Cafe24 어댑터 등과 연동`}</li>
+  75 | </ul>
+> 76 |     </MDXLayout>
+     |                 ^
+  77 |   )
+  78 | };
+  79 | MDXContent.isMDXComponent = true
+SyntaxError: /Users/sotatekthor/Desktop/FULGO_OMS/fulgo-docs/docusaurus/docs/02-orders-detail.md: Unterminated JSX contents. (90:16)
+  88 | <li parentName="ul">{`목록 페이지와 연계, 외부 몰 주문 페이지 링크 제공 가능`}</li>
+  89 | </ul>
+> 90 |     </MDXLayout>
+     |                 ^
+  91 |   )
+  92 | };
+  93 | MDXContent.isMDXComponent = true
+SyntaxError: /Users/sotatekthor/Desktop/FULGO_OMS/fulgo-docs/docusaurus/docs/03-products-list.md: Unterminated JSX contents. (89:16)
+  87 | <li parentName="ul"><inlineCode parentName="li">{`ProductService`}</inlineCode>{`와 몰 매핑 컴포넌트 연동`}</li>
+  88 | </ul>
+> 89 |     </MDXLayout>
+     |                 ^
+  90 |   )
+  91 | };
+  92 | MDXContent.isMDXComponent = true
+SyntaxError: /Users/sotatekthor/Desktop/FULGO_OMS/fulgo-docs/docusaurus/docs/05-malls.md: Unterminated JSX contents. (63:16)
+  61 | <li parentName="ul">{`Cafe24 등 어댑터를 백그라운드 작업으로 실행`}</li>
+  62 | </ul>
+> 63 |     </MDXLayout>
+     |                 ^
+  64 |   )
+  65 | };
+  66 | MDXContent.isMDXComponent = true
+SyntaxError: /Users/sotatekthor/Desktop/FULGO_OMS/fulgo-docs/docusaurus/docs/07-vendors.md: Expected corresponding JSX closing tag for <div>. (57:0)
+  55 | <li parentName="ul">{`재고 시스템 및 입고 처리 워크플로우와 연동됩니다.`}
+  56 | <div class="section">
+> 57 | </li>
+     | ^
+  58 | </ul>
+  59 |     </MDXLayout>
+  60 |   )
+client (webpack 5.101.3) compiled with 5 errors
+ℹ Compiling Client
+✔ Client: Compiled with some errors in 108.02ms
+
+
+SyntaxError: /Users/sotatekthor/Desktop/FULGO_OMS/fulgo-docs/docusaurus/docs/01-orders-list.md: Unterminated JSX contents. (76:16)
+  74 | <li parentName="ul">{`Cafe24 어댑터 등과 연동`}</li>
+  75 | </ul>
+> 76 |     </MDXLayout>
+     |                 ^
+  77 |   )
+  78 | };
+  79 | MDXContent.isMDXComponent = true
+SyntaxError: /Users/sotatekthor/Desktop/FULGO_OMS/fulgo-docs/docusaurus/docs/02-orders-detail.md: Unterminated JSX contents. (90:16)
+  88 | <li parentName="ul">{`목록 페이지와 연계, 외부 몰 주문 페이지 링크 제공 가능`}</li>
+  89 | </ul>
+> 90 |     </MDXLayout>
+     |                 ^
+  91 |   )
+  92 | };
+  93 | MDXContent.isMDXComponent = true
+SyntaxError: /Users/sotatekthor/Desktop/FULGO_OMS/fulgo-docs/docusaurus/docs/03-products-list.md: Unterminated JSX contents. (89:16)
+  87 | <li parentName="ul"><inlineCode parentName="li">{`ProductService`}</inlineCode>{`와 몰 매핑 컴포넌트 연동`}</li>
+  88 | </ul>
+> 89 |     </MDXLayout>
+     |                 ^
+  90 |   )
+  91 | };
+  92 | MDXContent.isMDXComponent = true
+SyntaxError: /Users/sotatekthor/Desktop/FULGO_OMS/fulgo-docs/docusaurus/docs/05-malls.md: Unterminated JSX contents. (63:16)
+  61 | <li parentName="ul">{`Cafe24 등 어댑터를 백그라운드 작업으로 실행`}</li>
+  62 | </ul>
+> 63 |     </MDXLayout>
+     |                 ^
+  64 |   )
+  65 | };
+  66 | MDXContent.isMDXComponent = true
+SyntaxError: /Users/sotatekthor/Desktop/FULGO_OMS/fulgo-docs/docusaurus/docs/07-vendors.md: Expected corresponding JSX closing tag for <div>. (57:0)
+  55 | <li parentName="ul">{`재고 시스템 및 입고 처리 워크플로우와 연동됩니다.`}
+  56 | <div class="section">
+> 57 | </li>
+     | ^
+  58 | </ul>
+  59 |     </MDXLayout>
+  60 |   )
+SyntaxError: /Users/sotatekthor/Desktop/FULGO_OMS/fulgo-docs/docusaurus/docs/09-pages-index.md: Unterminated JSX contents. (25:16)
+  23 | <li parentName="ul"><a parentName="li" {...{"href":"02-orders-detail.html"}}>{`02. 주문 — 상세`}</a></li>
+  24 | </ul>
+> 25 |     </MDXLayout>
+     |                 ^
+  26 |   )
+  27 | };
+  28 | MDXContent.isMDXComponent = true
+client (webpack 5.101.3) compiled with 6 errors
+ℹ Compiling Client
+✔ Client: Compiled with some errors in 107.32ms
+
+
+SyntaxError: /Users/sotatekthor/Desktop/FULGO_OMS/fulgo-docs/docusaurus/docs/01-orders-list.md: Unterminated JSX contents. (69:16)
+  67 | <li parentName="ul">{`동기화 오류 재시도 해결률: `}<strong parentName="li">{`> 80%`}</strong></li>
+  68 | </ul>
+> 69 |     </MDXLayout>
+     |                 ^
+  70 |   )
+  71 | };
+  72 | MDXContent.isMDXComponent = true
+SyntaxError: /Users/sotatekthor/Desktop/FULGO_OMS/fulgo-docs/docusaurus/docs/02-orders-detail.md: Unterminated JSX contents. (90:16)
+  88 | <li parentName="ul">{`목록 페이지와 연계, 외부 몰 주문 페이지 링크 제공 가능`}</li>
+  89 | </ul>
+> 90 |     </MDXLayout>
+     |                 ^
+  91 |   )
+  92 | };
+  93 | MDXContent.isMDXComponent = true
+SyntaxError: /Users/sotatekthor/Desktop/FULGO_OMS/fulgo-docs/docusaurus/docs/03-products-list.md: Unterminated JSX contents. (89:16)
+  87 | <li parentName="ul"><inlineCode parentName="li">{`ProductService`}</inlineCode>{`와 몰 매핑 컴포넌트 연동`}</li>
+  88 | </ul>
+> 89 |     </MDXLayout>
+     |                 ^
+  90 |   )
+  91 | };
+  92 | MDXContent.isMDXComponent = true
+SyntaxError: /Users/sotatekthor/Desktop/FULGO_OMS/fulgo-docs/docusaurus/docs/05-malls.md: Unterminated JSX contents. (63:16)
+  61 | <li parentName="ul">{`Cafe24 등 어댑터를 백그라운드 작업으로 실행`}</li>
+  62 | </ul>
+> 63 |     </MDXLayout>
+     |                 ^
+  64 |   )
+  65 | };
+  66 | MDXContent.isMDXComponent = true
+SyntaxError: /Users/sotatekthor/Desktop/FULGO_OMS/fulgo-docs/docusaurus/docs/07-vendors.md: Expected corresponding JSX closing tag for <div>. (57:0)
+  55 | <li parentName="ul">{`재고 시스템 및 입고 처리 워크플로우와 연동됩니다.`}
+  56 | <div class="section">
+> 57 | </li>
+     | ^
+  58 | </ul>
+  59 |     </MDXLayout>
+  60 |   )
+SyntaxError: /Users/sotatekthor/Desktop/FULGO_OMS/fulgo-docs/docusaurus/docs/09-pages-index.md: Unterminated JSX contents. (25:16)
+  23 | <li parentName="ul"><a parentName="li" {...{"href":"02-orders-detail.html"}}>{`02. 주문 — 상세`}</a></li>
+  24 | </ul>
+> 25 |     </MDXLayout>
+     |                 ^
+  26 |   )
+  27 | };
+  28 | MDXContent.isMDXComponent = true
+client (webpack 5.101.3) compiled with 6 errors
+ℹ Compiling Client
+✔ Client: Compiled with some errors in 111.54ms
+
+
+SyntaxError: /Users/sotatekthor/Desktop/FULGO_OMS/fulgo-docs/docusaurus/docs/01-orders-list.md: Unterminated JSX contents. (69:16)
+  67 | <li parentName="ul">{`동기화 오류 재시도 해결률: `}<strong parentName="li">{`> 80%`}</strong></li>
+  68 | </ul>
+> 69 |     </MDXLayout>
+     |                 ^
+  70 |   )
+  71 | };
+  72 | MDXContent.isMDXComponent = true
+SyntaxError: /Users/sotatekthor/Desktop/FULGO_OMS/fulgo-docs/docusaurus/docs/02-orders-detail.md: Unterminated JSX contents. (89:16)
+  87 | <li parentName="ul">{`목록 페이지와 연계, 외부 몰 주문 페이지 링크 제공 가능`}</li>
+  88 | </ul>
+> 89 |     </MDXLayout>
+     |                 ^
+  90 |   )
+  91 | };
+  92 | MDXContent.isMDXComponent = true
+SyntaxError: /Users/sotatekthor/Desktop/FULGO_OMS/fulgo-docs/docusaurus/docs/03-products-list.md: Unterminated JSX contents. (89:16)
+  87 | <li parentName="ul"><inlineCode parentName="li">{`ProductService`}</inlineCode>{`와 몰 매핑 컴포넌트 연동`}</li>
+  88 | </ul>
+> 89 |     </MDXLayout>
+     |                 ^
+  90 |   )
+  91 | };
+  92 | MDXContent.isMDXComponent = true
+SyntaxError: /Users/sotatekthor/Desktop/FULGO_OMS/fulgo-docs/docusaurus/docs/05-malls.md: Unterminated JSX contents. (63:16)
+  61 | <li parentName="ul">{`Cafe24 등 어댑터를 백그라운드 작업으로 실행`}</li>
+  62 | </ul>
+> 63 |     </MDXLayout>
+     |                 ^
+  64 |   )
+  65 | };
+  66 | MDXContent.isMDXComponent = true
+SyntaxError: /Users/sotatekthor/Desktop/FULGO_OMS/fulgo-docs/docusaurus/docs/07-vendors.md: Expected corresponding JSX closing tag for <div>. (57:0)
+  55 | <li parentName="ul">{`재고 시스템 및 입고 처리 워크플로우와 연동됩니다.`}
+  56 | <div class="section">
+> 57 | </li>
+     | ^
+  58 | </ul>
+  59 |     </MDXLayout>
+  60 |   )
+SyntaxError: /Users/sotatekthor/Desktop/FULGO_OMS/fulgo-docs/docusaurus/docs/09-pages-index.md: Unterminated JSX contents. (25:16)
+  23 | <li parentName="ul"><a parentName="li" {...{"href":"02-orders-detail.html"}}>{`02. 주문 — 상세`}</a></li>
+  24 | </ul>
+> 25 |     </MDXLayout>
+     |                 ^
+  26 |   )
+  27 | };
+  28 | MDXContent.isMDXComponent = true
+client (webpack 5.101.3) compiled with 6 errors
+ℹ Compiling Client
+✔ Client: Compiled with some errors in 89.60ms
+
+
+SyntaxError: /Users/sotatekthor/Desktop/FULGO_OMS/fulgo-docs/docusaurus/docs/01-orders-list.md: Unterminated JSX contents. (69:16)
+  67 | <li parentName="ul">{`동기화 오류 재시도 해결률: `}<strong parentName="li">{`> 80%`}</strong></li>
+  68 | </ul>
+> 69 |     </MDXLayout>
+     |                 ^
+  70 |   )
+  71 | };
+  72 | MDXContent.isMDXComponent = true
+SyntaxError: /Users/sotatekthor/Desktop/FULGO_OMS/fulgo-docs/docusaurus/docs/02-orders-detail.md: Unterminated JSX contents. (89:16)
+  87 | <li parentName="ul">{`목록 페이지와 연계, 외부 몰 주문 페이지 링크 제공 가능`}</li>
+  88 | </ul>
+> 89 |     </MDXLayout>
+     |                 ^
+  90 |   )
+  91 | };
+  92 | MDXContent.isMDXComponent = true
+SyntaxError: /Users/sotatekthor/Desktop/FULGO_OMS/fulgo-docs/docusaurus/docs/03-products-list.md: Unterminated JSX contents. (86:16)
+  84 | <li parentName="ul"><inlineCode parentName="li">{`ProductService`}</inlineCode>{`와 몰 매핑 컴포넌트 연동`}</li>
+  85 | </ul>
+> 86 |     </MDXLayout>
+     |                 ^
+  87 |   )
+  88 | };
+  89 | MDXContent.isMDXComponent = true
+SyntaxError: /Users/sotatekthor/Desktop/FULGO_OMS/fulgo-docs/docusaurus/docs/05-malls.md: Unterminated JSX contents. (63:16)
+  61 | <li parentName="ul">{`Cafe24 등 어댑터를 백그라운드 작업으로 실행`}</li>
+  62 | </ul>
+> 63 |     </MDXLayout>
+     |                 ^
+  64 |   )
+  65 | };
+  66 | MDXContent.isMDXComponent = true
+SyntaxError: /Users/sotatekthor/Desktop/FULGO_OMS/fulgo-docs/docusaurus/docs/07-vendors.md: Expected corresponding JSX closing tag for <div>. (57:0)
+  55 | <li parentName="ul">{`재고 시스템 및 입고 처리 워크플로우와 연동됩니다.`}
+  56 | <div class="section">
+> 57 | </li>
+     | ^
+  58 | </ul>
+  59 |     </MDXLayout>
+  60 |   )
+SyntaxError: /Users/sotatekthor/Desktop/FULGO_OMS/fulgo-docs/docusaurus/docs/09-pages-index.md: Unterminated JSX contents. (25:16)
+  23 | <li parentName="ul"><a parentName="li" {...{"href":"02-orders-detail.html"}}>{`02. 주문 — 상세`}</a></li>
+  24 | </ul>
+> 25 |     </MDXLayout>
+     |                 ^
+  26 |   )
+  27 | };
+  28 | MDXContent.isMDXComponent = true
+client (webpack 5.101.3) compiled with 6 errors
+ℹ Compiling Client
+✔ Client: Compiled with some errors in 91.80ms
+
+
+SyntaxError: /Users/sotatekthor/Desktop/FULGO_OMS/fulgo-docs/docusaurus/docs/01-orders-list.md: Unterminated JSX contents. (69:16)
+  67 | <li parentName="ul">{`동기화 오류 재시도 해결률: `}<strong parentName="li">{`> 80%`}</strong></li>
+  68 | </ul>
+> 69 |     </MDXLayout>
+     |                 ^
+  70 |   )
+  71 | };
+  72 | MDXContent.isMDXComponent = true
+SyntaxError: /Users/sotatekthor/Desktop/FULGO_OMS/fulgo-docs/docusaurus/docs/02-orders-detail.md: Unterminated JSX contents. (89:16)
+  87 | <li parentName="ul">{`목록 페이지와 연계, 외부 몰 주문 페이지 링크 제공 가능`}</li>
+  88 | </ul>
+> 89 |     </MDXLayout>
+     |                 ^
+  90 |   )
+  91 | };
+  92 | MDXContent.isMDXComponent = true
+SyntaxError: /Users/sotatekthor/Desktop/FULGO_OMS/fulgo-docs/docusaurus/docs/03-products-list.md: Unterminated JSX contents. (86:16)
+  84 | <li parentName="ul"><inlineCode parentName="li">{`ProductService`}</inlineCode>{`와 몰 매핑 컴포넌트 연동`}</li>
+  85 | </ul>
+> 86 |     </MDXLayout>
+     |                 ^
+  87 |   )
+  88 | };
+  89 | MDXContent.isMDXComponent = true
+SyntaxError: /Users/sotatekthor/Desktop/FULGO_OMS/fulgo-docs/docusaurus/docs/05-malls.md: Unterminated JSX contents. (60:16)
+  58 | </ul>
+  59 | <h3 {...{"id":"오류-조건-및-ux-1"}}>{`오류 조건 및 UX`}</h3>
+> 60 |     </MDXLayout>
+     |                 ^
+  61 |   )
+  62 | };
+  63 | MDXContent.isMDXComponent = true
+SyntaxError: /Users/sotatekthor/Desktop/FULGO_OMS/fulgo-docs/docusaurus/docs/07-vendors.md: Expected corresponding JSX closing tag for <div>. (57:0)
+  55 | <li parentName="ul">{`재고 시스템 및 입고 처리 워크플로우와 연동됩니다.`}
+  56 | <div class="section">
+> 57 | </li>
+     | ^
+  58 | </ul>
+  59 |     </MDXLayout>
+  60 |   )
+SyntaxError: /Users/sotatekthor/Desktop/FULGO_OMS/fulgo-docs/docusaurus/docs/09-pages-index.md: Unterminated JSX contents. (25:16)
+  23 | <li parentName="ul"><a parentName="li" {...{"href":"02-orders-detail.html"}}>{`02. 주문 — 상세`}</a></li>
+  24 | </ul>
+> 25 |     </MDXLayout>
+     |                 ^
+  26 |   )
+  27 | };
+  28 | MDXContent.isMDXComponent = true
+client (webpack 5.101.3) compiled with 6 errors
+ℹ Compiling Client
+✔ Client: Compiled with some errors in 168.85ms
+
+
+SyntaxError: /Users/sotatekthor/Desktop/FULGO_OMS/fulgo-docs/docusaurus/docs/01-orders-list.md: Unterminated JSX contents. (69:16)
+  67 | <li parentName="ul">{`동기화 오류 재시도 해결률: `}<strong parentName="li">{`> 80%`}</strong></li>
+  68 | </ul>
+> 69 |     </MDXLayout>
+     |                 ^
+  70 |   )
+  71 | };
+  72 | MDXContent.isMDXComponent = true
+SyntaxError: /Users/sotatekthor/Desktop/FULGO_OMS/fulgo-docs/docusaurus/docs/02-orders-detail.md: Unterminated JSX contents. (89:16)
+  87 | <li parentName="ul">{`목록 페이지와 연계, 외부 몰 주문 페이지 링크 제공 가능`}</li>
+  88 | </ul>
+> 89 |     </MDXLayout>
+     |                 ^
+  90 |   )
+  91 | };
+  92 | MDXContent.isMDXComponent = true
+SyntaxError: /Users/sotatekthor/Desktop/FULGO_OMS/fulgo-docs/docusaurus/docs/03-products-list.md: Unterminated JSX contents. (86:16)
+  84 | <li parentName="ul"><inlineCode parentName="li">{`ProductService`}</inlineCode>{`와 몰 매핑 컴포넌트 연동`}</li>
+  85 | </ul>
+> 86 |     </MDXLayout>
+     |                 ^
+  87 |   )
+  88 | };
+  89 | MDXContent.isMDXComponent = true
+SyntaxError: /Users/sotatekthor/Desktop/FULGO_OMS/fulgo-docs/docusaurus/docs/05-malls.md: Unterminated JSX contents. (60:16)
+  58 | </ul>
+  59 | <h3 {...{"id":"오류-조건-및-ux-1"}}>{`오류 조건 및 UX`}</h3>
+> 60 |     </MDXLayout>
+     |                 ^
+  61 |   )
+  62 | };
+  63 | MDXContent.isMDXComponent = true
+SyntaxError: /Users/sotatekthor/Desktop/FULGO_OMS/fulgo-docs/docusaurus/docs/09-pages-index.md: Unterminated JSX contents. (25:16)
+  23 | <li parentName="ul"><a parentName="li" {...{"href":"02-orders-detail.html"}}>{`02. 주문 — 상세`}</a></li>
+  24 | </ul>
+> 25 |     </MDXLayout>
+     |                 ^
+  26 |   )
+  27 | };
+  28 | MDXContent.isMDXComponent = true
+client (webpack 5.101.3) compiled with 5 errors
+ℹ Compiling Client
+✔ Client: Compiled with some errors in 127.49ms
+
+
+SyntaxError: /Users/sotatekthor/Desktop/FULGO_OMS/fulgo-docs/docusaurus/docs/01-orders-list.md: Unterminated JSX contents. (69:16)
+  67 | <li parentName="ul">{`동기화 오류 재시도 해결률: `}<strong parentName="li">{`> 80%`}</strong></li>
+  68 | </ul>
+> 69 |     </MDXLayout>
+     |                 ^
+  70 |   )
+  71 | };
+  72 | MDXContent.isMDXComponent = true
+SyntaxError: /Users/sotatekthor/Desktop/FULGO_OMS/fulgo-docs/docusaurus/docs/02-orders-detail.md: Unterminated JSX contents. (89:16)
+  87 | <li parentName="ul">{`목록 페이지와 연계, 외부 몰 주문 페이지 링크 제공 가능`}</li>
+  88 | </ul>
+> 89 |     </MDXLayout>
+     |                 ^
+  90 |   )
+  91 | };
+  92 | MDXContent.isMDXComponent = true
+SyntaxError: /Users/sotatekthor/Desktop/FULGO_OMS/fulgo-docs/docusaurus/docs/03-products-list.md: Unterminated JSX contents. (86:16)
+  84 | <li parentName="ul"><inlineCode parentName="li">{`ProductService`}</inlineCode>{`와 몰 매핑 컴포넌트 연동`}</li>
+  85 | </ul>
+> 86 |     </MDXLayout>
+     |                 ^
+  87 |   )
+  88 | };
+  89 | MDXContent.isMDXComponent = true
+SyntaxError: /Users/sotatekthor/Desktop/FULGO_OMS/fulgo-docs/docusaurus/docs/05-malls.md: Unterminated JSX contents. (60:16)
+  58 | </ul>
+  59 | <h3 {...{"id":"오류-조건-및-ux-1"}}>{`오류 조건 및 UX`}</h3>
+> 60 |     </MDXLayout>
+     |                 ^
+  61 |   )
+  62 | };
+  63 | MDXContent.isMDXComponent = true
+SyntaxError: /Users/sotatekthor/Desktop/FULGO_OMS/fulgo-docs/docusaurus/docs/09-pages-index.md: Unterminated JSX contents. (25:16)
+  23 | <li parentName="ul"><a parentName="li" {...{"href":"02-orders-detail.html"}}>{`02. 주문 — 상세`}</a></li>
+  24 | </ul>
+> 25 |     </MDXLayout>
+     |                 ^
+  26 |   )
+  27 | };
+  28 | MDXContent.isMDXComponent = true
+client (webpack 5.101.3) compiled with 5 errors
+ℹ Compiling Client
+✔ Client: Compiled with some errors in 74.11ms
+
+
+SyntaxError: /Users/sotatekthor/Desktop/FULGO_OMS/fulgo-docs/docusaurus/docs/01-orders-list.md: Unterminated JSX contents. (69:16)
+  67 | <li parentName="ul">{`동기화 오류 재시도 해결률: `}<strong parentName="li">{`> 80%`}</strong></li>
+  68 | </ul>
+> 69 |     </MDXLayout>
+     |                 ^
+  70 |   )
+  71 | };
+  72 | MDXContent.isMDXComponent = true
+SyntaxError: /Users/sotatekthor/Desktop/FULGO_OMS/fulgo-docs/docusaurus/docs/02-orders-detail.md: Unterminated JSX contents. (89:16)
+  87 | <li parentName="ul">{`목록 페이지와 연계, 외부 몰 주문 페이지 링크 제공 가능`}</li>
+  88 | </ul>
+> 89 |     </MDXLayout>
+     |                 ^
+  90 |   )
+  91 | };
+  92 | MDXContent.isMDXComponent = true
+SyntaxError: /Users/sotatekthor/Desktop/FULGO_OMS/fulgo-docs/docusaurus/docs/03-products-list.md: Unterminated JSX contents. (86:16)
+  84 | <li parentName="ul"><inlineCode parentName="li">{`ProductService`}</inlineCode>{`와 몰 매핑 컴포넌트 연동`}</li>
+  85 | </ul>
+> 86 |     </MDXLayout>
+     |                 ^
+  87 |   )
+  88 | };
+  89 | MDXContent.isMDXComponent = true
+SyntaxError: /Users/sotatekthor/Desktop/FULGO_OMS/fulgo-docs/docusaurus/docs/05-malls.md: Unterminated JSX contents. (60:16)
+  58 | </ul>
+  59 | <h3 {...{"id":"오류-조건-및-ux-1"}}>{`오류 조건 및 UX`}</h3>
+> 60 |     </MDXLayout>
+     |                 ^
+  61 |   )
+  62 | };
+  63 | MDXContent.isMDXComponent = true
+SyntaxError: /Users/sotatekthor/Desktop/FULGO_OMS/fulgo-docs/docusaurus/docs/09-pages-index.md: Unterminated JSX contents. (25:16)
+  23 | <li parentName="ul"><a parentName="li" {...{"href":"02-orders-detail.html"}}>{`02. 주문 — 상세`}</a></li>
+  24 | </ul>
+> 25 |     </MDXLayout>
+     |                 ^
+  26 |   )
+  27 | };
+  28 | MDXContent.isMDXComponent = true
+client (webpack 5.101.3) compiled with 5 errors
+[WARNING] Duplicate routes found!
+- Attempting to create page at /09-pages-index, but a page already exists at this route.
+This could lead to non-deterministic routing behavior.
+ℹ Compiling Client
+✔ Client: Compiled with some errors in 254.54ms
+
+
+SyntaxError: /Users/sotatekthor/Desktop/FULGO_OMS/fulgo-docs/docusaurus/docs/01-orders-list.md: Unterminated JSX contents. (69:16)
+  67 | <li parentName="ul">{`동기화 오류 재시도 해결률: `}<strong parentName="li">{`> 80%`}</strong></li>
+  68 | </ul>
+> 69 |     </MDXLayout>
+     |                 ^
+  70 |   )
+  71 | };
+  72 | MDXContent.isMDXComponent = true
+SyntaxError: /Users/sotatekthor/Desktop/FULGO_OMS/fulgo-docs/docusaurus/docs/02-orders-detail.md: Unterminated JSX contents. (89:16)
+  87 | <li parentName="ul">{`목록 페이지와 연계, 외부 몰 주문 페이지 링크 제공 가능`}</li>
+  88 | </ul>
+> 89 |     </MDXLayout>
+     |                 ^
+  90 |   )
+  91 | };
+  92 | MDXContent.isMDXComponent = true
+SyntaxError: /Users/sotatekthor/Desktop/FULGO_OMS/fulgo-docs/docusaurus/docs/03-products-list.md: Unterminated JSX contents. (86:16)
+  84 | <li parentName="ul"><inlineCode parentName="li">{`ProductService`}</inlineCode>{`와 몰 매핑 컴포넌트 연동`}</li>
+  85 | </ul>
+> 86 |     </MDXLayout>
+     |                 ^
+  87 |   )
+  88 | };
+  89 | MDXContent.isMDXComponent = true
+SyntaxError: /Users/sotatekthor/Desktop/FULGO_OMS/fulgo-docs/docusaurus/docs/05-malls.md: Unterminated JSX contents. (60:16)
+  58 | </ul>
+  59 | <h3 {...{"id":"오류-조건-및-ux-1"}}>{`오류 조건 및 UX`}</h3>
+> 60 |     </MDXLayout>
+     |                 ^
+  61 |   )
+  62 | };
+  63 | MDXContent.isMDXComponent = true
+SyntaxError: /Users/sotatekthor/Desktop/FULGO_OMS/fulgo-docs/docusaurus/docs/09-pages-index.md: Unterminated JSX contents. (25:16)
+  23 | <li parentName="ul"><a parentName="li" {...{"href":"02-orders-detail.html"}}>{`02. 주문 — 상세`}</a></li>
+  24 | </ul>
+> 25 |     </MDXLayout>
+     |                 ^
+  26 |   )
+  27 | };
+  28 | MDXContent.isMDXComponent = true
+client (webpack 5.101.3) compiled with 5 errors
+ℹ Compiling Client
+✔ Client: Compiled with some errors in 80.11ms
+
+
+SyntaxError: /Users/sotatekthor/Desktop/FULGO_OMS/fulgo-docs/docusaurus/docs/01-orders-list.md: Unterminated JSX contents. (69:16)
+  67 | <li parentName="ul">{`동기화 오류 재시도 해결률: `}<strong parentName="li">{`> 80%`}</strong></li>
+  68 | </ul>
+> 69 |     </MDXLayout>
+     |                 ^
+  70 |   )
+  71 | };
+  72 | MDXContent.isMDXComponent = true
+SyntaxError: /Users/sotatekthor/Desktop/FULGO_OMS/fulgo-docs/docusaurus/docs/02-orders-detail.md: Unterminated JSX contents. (89:16)
+  87 | <li parentName="ul">{`목록 페이지와 연계, 외부 몰 주문 페이지 링크 제공 가능`}</li>
+  88 | </ul>
+> 89 |     </MDXLayout>
+     |                 ^
+  90 |   )
+  91 | };
+  92 | MDXContent.isMDXComponent = true
+SyntaxError: /Users/sotatekthor/Desktop/FULGO_OMS/fulgo-docs/docusaurus/docs/03-products-list.md: Unterminated JSX contents. (86:16)
+  84 | <li parentName="ul"><inlineCode parentName="li">{`ProductService`}</inlineCode>{`와 몰 매핑 컴포넌트 연동`}</li>
+  85 | </ul>
+> 86 |     </MDXLayout>
+     |                 ^
+  87 |   )
+  88 | };
+  89 | MDXContent.isMDXComponent = true
+SyntaxError: /Users/sotatekthor/Desktop/FULGO_OMS/fulgo-docs/docusaurus/docs/05-malls.md: Unterminated JSX contents. (60:16)
+  58 | </ul>
+  59 | <h3 {...{"id":"오류-조건-및-ux-1"}}>{`오류 조건 및 UX`}</h3>
+> 60 |     </MDXLayout>
+     |                 ^
+  61 |   )
+  62 | };
+  63 | MDXContent.isMDXComponent = true
+SyntaxError: /Users/sotatekthor/Desktop/FULGO_OMS/fulgo-docs/docusaurus/docs/09-pages-index.md: Unterminated JSX contents. (41:16)
+  39 | <li parentName="ul"><a parentName="li" {...{"href":"02-orders-detail.html"}}>{`02. 주문 — 상세`}</a></li>
+  40 | </ul>
+> 41 |     </MDXLayout>
+     |                 ^
+  42 |   )
+  43 | };
+  44 | MDXContent.isMDXComponent = true
+client (webpack 5.101.3) compiled with 5 errors
+[WARNING] Duplicate routes found!
+- Attempting to create page at /09-pages-index, but a page already exists at this route.
+This could lead to non-deterministic routing behavior.
+ℹ Compiling Client
+✔ Client: Compiled with some errors in 74.01ms
+
+
+SyntaxError: /Users/sotatekthor/Desktop/FULGO_OMS/fulgo-docs/docusaurus/docs/01-orders-list.md: Unterminated JSX contents. (69:16)
+  67 | <li parentName="ul">{`동기화 오류 재시도 해결률: `}<strong parentName="li">{`> 80%`}</strong></li>
+  68 | </ul>
+> 69 |     </MDXLayout>
+     |                 ^
+  70 |   )
+  71 | };
+  72 | MDXContent.isMDXComponent = true
+SyntaxError: /Users/sotatekthor/Desktop/FULGO_OMS/fulgo-docs/docusaurus/docs/02-orders-detail.md: Unterminated JSX contents. (89:16)
+  87 | <li parentName="ul">{`목록 페이지와 연계, 외부 몰 주문 페이지 링크 제공 가능`}</li>
+  88 | </ul>
+> 89 |     </MDXLayout>
+     |                 ^
+  90 |   )
+  91 | };
+  92 | MDXContent.isMDXComponent = true
+SyntaxError: /Users/sotatekthor/Desktop/FULGO_OMS/fulgo-docs/docusaurus/docs/03-products-list.md: Unterminated JSX contents. (86:16)
+  84 | <li parentName="ul"><inlineCode parentName="li">{`ProductService`}</inlineCode>{`와 몰 매핑 컴포넌트 연동`}</li>
+  85 | </ul>
+> 86 |     </MDXLayout>
+     |                 ^
+  87 |   )
+  88 | };
+  89 | MDXContent.isMDXComponent = true
+SyntaxError: /Users/sotatekthor/Desktop/FULGO_OMS/fulgo-docs/docusaurus/docs/05-malls.md: Unterminated JSX contents. (60:16)
+  58 | </ul>
+  59 | <h3 {...{"id":"오류-조건-및-ux-1"}}>{`오류 조건 및 UX`}</h3>
+> 60 |     </MDXLayout>
+     |                 ^
+  61 |   )
+  62 | };
+  63 | MDXContent.isMDXComponent = true
+SyntaxError: /Users/sotatekthor/Desktop/FULGO_OMS/fulgo-docs/docusaurus/docs/09-pages-index.md: Unterminated JSX contents. (41:16)
+  39 | <li parentName="ul"><a parentName="li" {...{"href":"02-orders-detail.html"}}>{`02. 주문 — 상세`}</a></li>
+  40 | </ul>
+> 41 |     </MDXLayout>
+     |                 ^
+  42 |   )
+  43 | };
+  44 | MDXContent.isMDXComponent = true
+client (webpack 5.101.3) compiled with 5 errors
+ℹ Compiling Client
+✔ Client: Compiled with some errors in 149.55ms
+
+
+SyntaxError: /Users/sotatekthor/Desktop/FULGO_OMS/fulgo-docs/docusaurus/docs/02-orders-detail.md: Unterminated JSX contents. (89:16)
+  87 | <li parentName="ul">{`목록 페이지와 연계, 외부 몰 주문 페이지 링크 제공 가능`}</li>
+  88 | </ul>
+> 89 |     </MDXLayout>
+     |                 ^
+  90 |   )
+  91 | };
+  92 | MDXContent.isMDXComponent = true
+SyntaxError: /Users/sotatekthor/Desktop/FULGO_OMS/fulgo-docs/docusaurus/docs/03-products-list.md: Unterminated JSX contents. (86:16)
+  84 | <li parentName="ul"><inlineCode parentName="li">{`ProductService`}</inlineCode>{`와 몰 매핑 컴포넌트 연동`}</li>
+  85 | </ul>
+> 86 |     </MDXLayout>
+     |                 ^
+  87 |   )
+  88 | };
+  89 | MDXContent.isMDXComponent = true
+SyntaxError: /Users/sotatekthor/Desktop/FULGO_OMS/fulgo-docs/docusaurus/docs/05-malls.md: Unterminated JSX contents. (60:16)
+  58 | </ul>
+  59 | <h3 {...{"id":"오류-조건-및-ux-1"}}>{`오류 조건 및 UX`}</h3>
+> 60 |     </MDXLayout>
+     |                 ^
+  61 |   )
+  62 | };
+  63 | MDXContent.isMDXComponent = true
+SyntaxError: /Users/sotatekthor/Desktop/FULGO_OMS/fulgo-docs/docusaurus/docs/09-pages-index.md: Unterminated JSX contents. (41:16)
+  39 | <li parentName="ul"><a parentName="li" {...{"href":"02-orders-detail.html"}}>{`02. 주문 — 상세`}</a></li>
+  40 | </ul>
+> 41 |     </MDXLayout>
+     |                 ^
+  42 |   )
+  43 | };
+  44 | MDXContent.isMDXComponent = true
+client (webpack 5.101.3) compiled with 4 errors
+[WARNING] Duplicate routes found!
+- Attempting to create page at /09-pages-index, but a page already exists at this route.
+This could lead to non-deterministic routing behavior.
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, rename '/Users/sotatekthor/Desktop/FULGO_OMS/fulgo-docs/docusaurus/node_modules/.cache/webpack/client-development-en/1.pack_' -> '/Users/sotatekthor/Desktop/FULGO_OMS/fulgo-docs/docusaurus/node_modules/.cache/webpack/client-development-en/1.pack'

@@ -1,0 +1,23 @@
+{
+  "unversionedId": "index",
+  "id": "index",
+  "title": "Fulgo OMS Docs (KR)",
+  "description": "환영합니다. 이 섹션은 FULGO OMS의 주요 사용자 문서와 설계/운영 가이드를 포함합니다.",
+  "source": "@site/i18n/ko/docusaurus-plugin-content-docs/current/index.md",
+  "sourceDirName": ".",
+  "slug": "/",
+  "permalink": "/",
+  "draft": false,
+  "editUrl": "https://github.com/your-org/fulgo-docs/edit/main/docusaurus/docs/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "index",
+    "title": "Fulgo OMS Docs (KR)"
+  },
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "Orders List",
+    "permalink": "/01-orders-list"
+  }
+}

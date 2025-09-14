@@ -1,0 +1,28 @@
+{
+  "unversionedId": "05-malls",
+  "id": "05-malls",
+  "title": "Malls",
+  "description": "Tổng quan",
+  "source": "@site/i18n/vi/docusaurus-plugin-content-docs/current/05-malls.md",
+  "sourceDirName": ".",
+  "slug": "/05-malls",
+  "permalink": "/vi/05-malls",
+  "draft": false,
+  "editUrl": "https://github.com/your-org/fulgo-docs/edit/main/docusaurus/docs/05-malls.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "id": "05-malls",
+    "title": "Malls"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Chi Tiết Sản Phẩm",
+    "permalink": "/vi/04-products-detail"
+  },
+  "next": {
+    "title": "Categories",
+    "permalink": "/vi/06-categories"
+  }
+}
