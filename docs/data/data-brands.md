@@ -1,7 +1,6 @@
 ---
 id: data-brands
 title: 브랜드 데이터 (mockBrands)
-slug: /data/data-brands
 ---
 
 **목적**

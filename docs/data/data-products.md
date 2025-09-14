@@ -1,7 +1,7 @@
 ---
+---
 id: data-products
 title: 상품 데이터 (mockProducts)
-slug: /data/data-products
 ---
 
 **목적**

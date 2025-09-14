@@ -1,7 +1,6 @@
 ---
 id: data-categories
 title: 카테고리 데이터 (mockCategories)
-slug: /data/data-categories
 ---
 
 **목적**
